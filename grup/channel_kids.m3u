@@ -1,87 +1,112 @@
 #EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
 #EXTINF:-1 tvg-logo="https://object-streamo.emonaja.com/img/animax.png" group-title="CHANNEL | KIDS",ANIMAX
+#EXTGRP:CHANNEL | KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/animax/index.m3u8
 #EXTINF:-1 tvg-name="Bioskop Animasi" tvg-logo="http://goldenid.online:80/images/b04f6b23da86d942a0b546a2b158d9f5.png" group-title="CHANNEL | KIDS" xui-id="44651",Bioskop Animasi
+#EXTGRP:CHANNEL | KIDS
 http://goldenid.online:80/play/38ifGdTRCzSHegy1-YigjwS7-_Z4L_rsxgZiliTVlGhl1VAjpv9kByRS_ELcuexp
 #EXTINF:-1 tvg-chno="16" tvg-id="Boomerang.us2" tvg-name="Boomerang" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png" group-title="CHANNEL | KIDS",Boomerang
+#EXTGRP:CHANNEL | KIDS
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="Kids.TV.id" tvg-name="Kids TV" tvg-logo="https://object-streamo.emonaja.com/img/kidstv.png" group-title="CHANNEL | KIDS",KIDS TV
+#EXTGRP:CHANNEL | KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/kidstv/index.m3u8
 #EXTINF:-1 tvg-id="Mentari.TV.id" tvg-name="Mentari TV" tvg-logo="https://thumbor.prod.vidiocdn.com/59CZO-IVdps6hUK6gEQqn-w-bCw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png" group-title="CHANNEL | KIDS",MENTARI TV
+#EXTGRP:CHANNEL | KIDS
 https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=8237
 #EXTINF:-1 tvg-id="VTV.id" tvg-logo="https://object-streamo.emonaja.com/img/vtv.png" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-title="CHANNEL | KIDS", VTV
+#EXTGRP:CHANNEL | KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://flv.intechmedia.net/live/ch107.m3u8
 #EXTINF:-1 group-title="CHANNEL | KIDS" tvg-logo="https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Horee.png", HOREE!
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ba28ba48a69c3168a2dca359974ee051:00ec48ab9b2e3c4a127728dbffe1a004
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 https://atemecdnbalancer-voe.sysln.id/live/eds/HoreeHD/newmpd/HoreeHD.mpd
 #EXTINF:-1 group-title="CHANNEL | KIDS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Hip_Hip_Horee.png", HIP HOREE
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=601f58d4b7094d2baf78c85d1d9cb6c9:609e0cc03198455fa36fd2cc3e7f940d
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd
 #EXTINF:-1 tvg-id="USBC2400019EF" tvg-name="" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_39.png" group-title="CHANNEL | KIDS", ZOO MOO
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=63
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8554b3cb938e44038093df2d65080932/index.mpd
 #EXTINF:-1 tvg-id="Max.Kids.id" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180x180_CLMAXKids_2026_01_31_00_41_18.jpg" group-title="CHANNEL | KIDS", Max Kids
+#EXTGRP:CHANNEL | KIDS
 #EXTVLCOPT:http-referrer=https://maxstream.tv/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://cdnbal1.indihometv.com/atm/DASH/indikids/indikids-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://iili.io/d2tKoyQ.jpg" group-title="CHANNEL | KIDS", DISNEY CHANNEL
+#EXTGRP:CHANNEL | KIDS
 https://raw.githubusercontent.com/ali-fajar/PUISI-CINTA/refs/heads/main/823765.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://iili.io/d2tKkAl.png" group-title="CHANNEL | KIDS", DISNEY JR
+#EXTGRP:CHANNEL | KIDS
 https://raw.githubusercontent.com/ali-fajar/PUISI-CINTA/refs/heads/main/823765.m3u8
 #EXTINF:-1 tvg-id="YTV" tvg-name="YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="CHANNEL | KIDS", YTV
+#EXTGRP:CHANNEL | KIDS
 https://a196aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/o7aqpbb6vv/out/v1/f8f6ef738ef24c4f8176d561ffb8a157/cenc.mpd
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/SpJXpqF.png?v=1.0.0.1" group-title="CHANNEL | KIDS" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png" tvg-id="CartoonNetwork.id" tvg-name="Cartoon Network", Cartoon Network
+#EXTGRP:CHANNEL | KIDS
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
 #EXTINF:-1 tvg-id="Dreamworks" tvg-name="Dreamworks" tvg-logo="https://freem3u.xyz/static/images/global/dreamworks.png" group-title="CHANNEL | KIDS", Dreamworks
+#EXTGRP:CHANNEL | KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/dreamworks/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon - [Channel 49].id" tvg-name="" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/e1dd8b2c9477e9c047fc597e8835eebb.png" group-title="CHANNEL | KIDS", NICKELODEON
+#EXTGRP:CHANNEL | KIDS
 http://fikoltv.ottc.pro:80/IIML8BORNU/2T48AVSPDU/1179169
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/zBJF9fu.png?v=1.0.0.1" group-title="CHANNEL | KIDS" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png" tvg-id="Boomerang.vn" tvg-name="Boomerang.vn", Cartoonito
+#EXTGRP:CHANNEL | KIDS
 https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #EXTINF:-1 group-title="CHANNEL | KIDS" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/9e422d53-5c00-49ea-8422-e2a3f1e03f70.jpg",Cartoon TV
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/Q2FydG9vbiBUVg/manifest.mpd?signature=YjEzODZjNDI5NzEyOGE5ZmQ2NWIyMDA2ZWMxODA0Yzc=&time=77777777777&device_id=iW2H5zQ9_mnW9WJEF6Vm1W23rWHKVWNKUkyapUNnuPzi0Z3Nbg
 #EXTINF:-1 group-title="CHANNEL | KIDS" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/87c43b67-b234-41a8-b188-ae6b498a40b4.jpg",Cartoon TV Classic
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/Q2FydG9vbiBUViBDbGFzc2ljcw/manifest.mpd?signature=MmEwMTI4NjBiZjVhNGMzMDgyZWI2NzY5OTgwNDU0Yzk=&time=77777777777&device_id=8mpgGoJ8ib8CYMRUTq1vweL87EXOxri3ra8USkf_dajut8vqAQ
 #EXTINF:-1 group-title="CHANNEL | KIDS" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/6e735e2f-e7db-47ec-b13b-23d3a0342124.jpg",Cartoon TV Premium
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/Q2FydG9vbiBUViBQcmVtaXVt/manifest.mpd?signature=ZThmZjkwMjZhYTc0MjgxNGY3NTNkOGZmN2ViMTU1MDE=&time=77777777777&device_id=DsAvLouE6aRFSfzgRbK9czP31LZMaBDET7IFwFF_G0hXblJNHQ
 #EXTINF:-1 tvg-id="BoomerangAsia.sg@SD" group-title="CHANNEL | KIDS" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cartoonito.png",Cartoonito
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/Q2FydG9vbml0bw/manifest.mpd
 #EXTINF:-1 tvg-id="Nick Jr. HD - [Channel 472].id" tvg-name="" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c407878e19cad2a98a707210492d0f4c.png" group-title="CHANNEL | KIDS", NICK JR
+#EXTGRP:CHANNEL | KIDS
 http://fikoltv.ottc.pro:80/IIML8BORNU/2T48AVSPDU/1179170
 #EXTINF:-1 tvg-id="Nicktoons.mv" tvg-name="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Nicktoons_2023_Outlined_Logo.png" group-title="CHANNEL | KIDS", Nicktoons
+#EXTGRP:CHANNEL | KIDS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0
 http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="DuniaAnak.id@SD" group-title="CHANNEL | KIDS" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_duniaanak.png",Dunia Anak
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Origin=https://www.cubmu.com&Referer=https://www.cubmu.com/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6ffb9c53af284fd590217ede1eba765e:4abf1fd26e8c45a5b6bae60cf6ffc2b9
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/RHVuaWEgQW5haw/manifest.mpd?signature=YzFiMDczNTk5YzQ0YTAxM2U4ZDViODhmZWIzZDkwYzE=&time=77777777777&device_id=oqPcIJQPEgQxuPCsq77lFIwOcrQECY_B1ndbumvw1NNut3BBlg
 #EXTINF:-1 group-title="CHANNEL | KIDS" tvg-logo="https://i.pinimg.com/236x/46/6e/35/466e3516c3551338a89ca33502edd065.jpg",CINEMACHI KIDS
+#EXTGRP:CHANNEL | KIDS
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2bfc3e059a9f4176b835a15c9a0c0dac:265c00f7fd825ad3e092b56081953b60
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/

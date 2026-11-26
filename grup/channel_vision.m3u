@@ -1,559 +1,688 @@
 #EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
 #EXTINF:-1 tvg-id="2" tvg-logo="https://www.visionplus.id/images/repository/750/507750-LOGO-m.png" group-title="CHANNEL | VISION+",MNC TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/mnctv/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-logo="https://www.visionplus.id/images/repository/720/507720-LOGO-m.png" group-title="CHANNEL | VISION+",RCTI
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/rcti/index.m3u8
 #EXTINF:-1 tvg-id="3" tvg-logo="https://www.visionplus.id/images/repository/735/507735-LOGO-m.png" group-title="CHANNEL | VISION+",GTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/gtv/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-logo="https://www.visionplus.id/images/repository/209/514209-LOGO-m.png" group-title="CHANNEL | VISION+",TRANS TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/transtv/index.m3u8
 #EXTINF:-1 tvg-id="7" tvg-logo="https://www.visionplus.id/images/repository/207/514207-LOGO-m.png" group-title="CHANNEL | VISION+",TRANS 7
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/trans7/index.m3u8
 #EXTINF:-1 tvg-id="10" tvg-logo="https://www.visionplus.id/images/repository/820/513820-LOGO-m.png" group-title="CHANNEL | VISION+",ANTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/antv/index.m3u8
 #EXTINF:-1 tvg-id="11" tvg-logo="https://www.visionplus.id/images/repository/832/513832-LOGO-m.png" group-title="CHANNEL | VISION+",RTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/rtv/index.m3u8
 #EXTINF:-1 tvg-id="19" tvg-logo="https://www.visionplus.id/images/repository/072/569072-LOGO-m.png" group-title="CHANNEL | VISION+",MOJI
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/moji/index.m3u8
 #EXTINF:-1 tvg-id="20" tvg-logo="https://www.visionplus.id/images/repository/074/569074-LOGO-m.png" group-title="CHANNEL | VISION+",MENTARI TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/mentaritv/index.m3u8
 #EXTINF:-1 tvg-id="20" tvg-logo="https://www.visionplus.id/images/repository/074/569074-LOGO-m.png" group-title="CHANNEL | VISION+",MENTARI TV.
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/mentari/index.m3u8
 #EXTINF:-1 tvg-id="4" tvg-logo="https://www.visionplus.id/images/repository/792/513792-LOGO-m.png" group-title="CHANNEL | VISION+",iNews
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/inews/index.m3u8
 #EXTINF:-1 tvg-id="5" tvg-logo="https://www.visionplus.id/images/repository/584/584-LOGO-m.png" group-title="CHANNEL | VISION+",SINDO News
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/sindonews/index.m3u8
 #EXTINF:-1 tvg-id="12" tvg-logo="https://www.visionplus.id/images/repository/822/513822-LOGO-m.png" group-title="CHANNEL | VISION+",TV One
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/tvone/index.m3u8
 #EXTINF:-1 tvg-id="13" tvg-logo="https://www.visionplus.id/images/repository/590/590-LOGO-m.png" group-title="CHANNEL | VISION+",Kompas TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/kompas/index.m3u8
 #EXTINF:-1 tvg-id="14" tvg-logo="https://www.visionplus.id/images/repository/802/513802-LOGO-m.png" group-title="CHANNEL | VISION+",Metro TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/metrotv/index.m3u8
 #EXTINF:-1 tvg-id="15" tvg-logo="https://www.visionplus.id/images/repository/357/273357-LOGO-m.png" group-title="CHANNEL | VISION+",BTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/btv/index.m3u8
 #EXTINF:-1 tvg-id="16" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-m.png" group-title="CHANNEL | VISION+",TVRI
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/tvri/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-logo="https://www.visionplus.id/images/repository/595/595-LOGO-m.png" group-title="CHANNEL | VISION+",DAAI TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/daaitv/index.m3u8
 #EXTINF:-1 tvg-id="23" tvg-logo="https://www.visionplus.id/images/repository/752/507752-LOGO-m.png" group-title="CHANNEL | VISION+",MDTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/mdtv/index.m3u8
 #EXTINF:-1 tvg-id="24" tvg-logo="https://www.visionplus.id/images/repository/856/856-LOGO-m.png" group-title="CHANNEL | VISION+",JTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/jtv/index.m3u8
 #EXTINF:-1 tvg-id="25" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" group-title="CHANNEL | VISION+",JAKTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/jaktv/index.m3u8
 #EXTINF:-1 tvg-id="26" tvg-logo="https://www.visionplus.id/images/repository/700/700-LOGO-m.png" group-title="CHANNEL | VISION+",Bali TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/balitv/index.m3u8
 #EXTINF:-1 tvg-id="27" tvg-logo="https://www.visionplus.id/images/repository/600/600-LOGO-m.png" group-title="CHANNEL | VISION+",Bandung TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/bandungtv/index.m3u8
 #EXTINF:-1 tvg-id="28" tvg-logo="https://www.visionplus.id/images/repository/601/601-LOGO-m.png" group-title="CHANNEL | VISION+",TV 9
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/tv9/index.m3u8
 #EXTINF:-1 tvg-id="29" tvg-logo="https://www.visionplus.id/images/repository/839/437839-LOGO-m.png" group-title="CHANNEL | VISION+",DMI TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/dmi/index.m3u8
 #EXTINF:-1 tvg-id="30" tvg-logo="https://www.visionplus.id/images/repository/603/603-LOGO-m.png" group-title="CHANNEL | VISION+",TV MU
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/tvmu/index.m3u8
 #EXTINF:-1 tvg-id="36" tvg-logo="https://www.visionplus.id/images/repository/360/273360-LOGO-m.png" group-title="CHANNEL | VISION+",Originals
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/originals/index.m3u8
 #EXTINF:-1 tvg-id="37" tvg-logo="https://www.visionplus.id/images/repository/392/273392-LOGO-m.png" group-title="CHANNEL | VISION+",Buddy Star
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/buddystars/index.m3u8
 #EXTINF:-1 tvg-id="38" tvg-logo="https://www.visionplus.id/images/repository/397/273397-LOGO-m.png" group-title="CHANNEL | VISION+",Uniques
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/uniques/index.m3u8
 #EXTINF:-1 tvg-id="39" tvg-logo="https://www.visionplus.id/images/repository/394/273394-LOGO-m.png" group-title="CHANNEL | VISION+",Superrix
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/superrix/index.m3u8
 #EXTINF:-1 tvg-id="40" tvg-logo="https://www.visionplus.id/images/repository/376/273376-LOGO-m.png" group-title="CHANNEL | VISION+",Cineedge
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/cineedge/index.m3u8
 #EXTINF:-1 tvg-id="41" tvg-logo="https://www.visionplus.id/images/repository/609/609-LOGO-m.png" group-title="CHANNEL | VISION+",Thrill
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/thrill/index.m3u8
 #EXTINF:-1 tvg-id="42" tvg-logo="https://www.visionplus.id/images/repository/610/610-LOGO-m.png" group-title="CHANNEL | VISION+",Hits Movies
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/hitsmovies/index.m3u8
 #EXTINF:-1 tvg-id="44" tvg-logo="https://www.visionplus.id/images/repository/612/612-LOGO-m.png" group-title="CHANNEL | VISION+",Celestial Movies
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/celestialmovies/index.m3u8
 #EXTINF:-1 tvg-id="45" tvg-logo="https://www.visionplus.id/images/repository/613/613-LOGO-m.png" group-title="CHANNEL | VISION+",CCM
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/celestialclassic/index.m3u8
 #EXTINF:-1 tvg-id="46" tvg-logo="https://www.visionplus.id/images/repository/614/614-LOGO-m.png" group-title="CHANNEL | VISION+",Tvn Movies
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/tvnmovies/index.m3u8
 #EXTINF:-1 tvg-id="47" tvg-logo="https://www.visionplus.id/images/repository/277/410277-LOGO-m.png" group-title="CHANNEL | VISION+",Zee Bioskop
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/zeebioskop/index.m3u8
 #EXTINF:-1 tvg-id="48" tvg-logo="https://www.visionplus.id/images/repository/616/616-LOGO-m.png" group-title="CHANNEL | VISION+",Galaxy Premium
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/galaxypremium/index.m3u8
 #EXTINF:-1 tvg-id="49" tvg-logo="https://www.visionplus.id/images/repository/617/617-LOGO-m.png" group-title="CHANNEL | VISION+",Galaxy
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/galaxy/index.m3u8
 #EXTINF:-1 tvg-id="50" tvg-logo="https://www.visionplus.id/images/repository/342/10342-LOGO-m.png" group-title="CHANNEL | VISION+",iMC
+#EXTGRP:CHANNEL | VISION+
 http://aflaxtv.xyz:8080/F33848/cbd9779b/264769
 #EXTINF:-1 tvg-id="54" tvg-logo="https://www.visionplus.id/images/repository/114/345114-LOGO-m.png" group-title="CHANNEL | VISION+",Studio Universal
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/studiouniversal/index.m3u8
 #EXTINF:-1 tvg-id="68" tvg-logo="https://www.visionplus.id/images/repository/376/612376-LOGO-m.png" group-title="CHANNEL | VISION+",Hits Now
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/hitsnow/index.m3u8
 #EXTINF:-1 tvg-id="69" tvg-logo="https://www.visionplus.id/images/repository/317/604317-LOGO-m.png" group-title="CHANNEL | VISION+",FTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/ftv/index.m3u8
 #EXTINF:-1 tvg-id="70" tvg-logo="https://www.visionplus.id/images/repository/548/604548-LOGO-m.png" group-title="CHANNEL | VISION+",SET
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/set/index.m3u8
 #EXTINF:-1 tvg-id="72" tvg-logo="https://www.visionplus.id/images/repository/632/632-LOGO-m.png" group-title="CHANNEL | VISION+",ENTERTAINMENT
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/ent/index.m3u8
 #EXTINF:-1 tvg-id="73" tvg-logo="https://www.visionplus.id/images/repository/103/458103-LOGO-m.png" group-title="CHANNEL | VISION+",TVN
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/tvn/index.m3u8
 #EXTINF:-1 tvg-id="75" tvg-logo="https://www.visionplus.id/images/repository/635/635-LOGO-m.png" group-title="CHANNEL | VISION+",KIX
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/kix/index.m3u8
 #EXTINF:-1 tvg-id="76" tvg-logo="https://www.visionplus.id/images/repository/636/636-LOGO-m.png" group-title="CHANNEL | VISION+",NHK World Premium
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/nhkworldpremium/index.m3u8
 #EXTINF:-1 tvg-id="77" tvg-logo="https://www.visionplus.id/images/repository/637/637-LOGO-m.png" group-title="CHANNEL | VISION+",HITS
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/hits/index.m3u8
 #EXTINF:-1 tvg-id="79" tvg-logo="https://www.visionplus.id/images/repository/638/638-LOGO-m.png" group-title="CHANNEL | VISION+",AXN
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/axn/index.m3u8
 #EXTINF:-1 tvg-id="80" tvg-logo="https://www.visionplus.id/images/repository/639/639-LOGO-m.png" group-title="CHANNEL | VISION+",LIFETIME
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/lifetime/index.m3u8
 #EXTINF:-1 tvg-id="87" tvg-logo="https://www.visionplus.id/images/repository/641/641-LOGO-m.png" group-title="CHANNEL | VISION+",VISION PRIME
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/visionprime/index.m3u8
 #EXTINF:-1 tvg-id="88" tvg-logo="https://www.visionplus.id/images/repository/642/642-LOGO-m.png" group-title="CHANNEL | VISION+",Celebrities Tv
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/celebrities/index.m3u8
 #EXTINF:-1 tvg-id="89" tvg-logo="https://www.visionplus.id/images/repository/705/243705-LOGO-m.png" group-title="CHANNEL | VISION+",Hanacaraka Tv
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/hanacaraka/index.m3u8
 #EXTINF:-1 tvg-id="92" tvg-logo="https://www.visionplus.id/images/repository/644/644-LOGO-m.png" group-title="CHANNEL | VISION+",Rock Entertainment
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://beetv.my.id/jabingan/rcti.m3u8?id=92
 #EXTINF:-1 tvg-id="93" tvg-logo="https://www.visionplus.id/images/repository/645/645-LOGO-m.png" group-title="CHANNEL | VISION+",Rock Action
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/rockaction/index.m3u8
 #EXTINF:-1 tvg-id="158" tvg-logo="https://www.visionplus.id/images/repository/858/858-LOGO-m.png" group-title="CHANNEL | VISION+",Xing Kong TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/xingkong/index.m3u8
 #EXTINF:-1 tvg-id="159" tvg-logo="https://www.visionplus.id/images/repository/683/683-LOGO-m.png" group-title="CHANNEL | VISION+",Dragon TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/ios/shanghai/index.m3u8
 #EXTINF:-1 tvg-id="160" tvg-logo="https://www.visionplus.id/images/repository/853/853-LOGO-m.png" group-title="CHANNEL | VISION+",Hunan TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://proxy-v.rctiplus.id/live/ios/hunan/index.m3u8
 #EXTINF:-1 tvg-id="161" tvg-logo="https://www.visionplus.id/images/repository/685/685-LOGO-m.png" group-title="CHANNEL | VISION+",JSTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/jstv/index.m3u8
 #EXTINF:-1 tvg-id="162" tvg-logo="https://www.visionplus.id/images/repository/686/686-LOGO-m.png" group-title="CHANNEL | VISION+",NHK World Japan
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/nhkworld/index.m3u8
 #EXTINF:-1 tvg-id="163" tvg-logo="https://www.visionplus.id/images/repository/311/580311-LOGO-m.png" group-title="CHANNEL | VISION+",Tv5 Monde
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/tv5/index.m3u8
 #EXTINF:-1 tvg-id="164" tvg-logo="https://www.visionplus.id/images/repository/688/688-LOGO-m.png" group-title="CHANNEL | VISION+",Arirang
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/arirang/index.m3u8
 #EXTINF:-1 tvg-id="165" tvg-logo="https://www.visionplus.id/images/repository/689/689-LOGO-m.png" group-title="CHANNEL | VISION+",ABC Tv
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/abctv/index.m3u8
 #EXTINF:-1 tvg-id="204" tvg-logo="https://www.visionplus.id/images/repository/427/173427-LOGO-m.png" group-title="CHANNEL | VISION+",Drama World
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/dramaworld/index.m3u8
 #EXTINF:-1 tvg-id="201" tvg-logo="https://www.visionplus.id/images/repository/426/173426-LOGO-m.png" group-title="CHANNEL | VISION+",RCTI World
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=201
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="202" tvg-logo="https://www.visionplus.id/images/repository/424/173424-LOGO-m.png" group-title="CHANNEL | VISION+",GTV World
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=202
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="203" tvg-logo="https://www.visionplus.id/images/repository/425/173425-LOGO-m.png" group-title="CHANNEL | VISION+",MNCTV World
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=203
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="252" tvg-logo="https://www.visionplus.id/images/repository/088/115088-LOGO-m.png" group-title="CHANNEL | VISION+",Dens Play
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=252
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="253" tvg-logo="https://www.visionplus.id/images/repository/712/112712-LOGO-m.png" group-title="CHANNEL | VISION+",Dens Showbiz
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=253
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="56" tvg-logo="https://www.visionplus.id/images/repository/623/623-LOGO-m.png" group-title="CHANNEL | VISION+",Kids TV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/kidstv/index.m3u8
 #EXTINF:-1 tvg-id="57" tvg-logo="https://www.visionplus.id/images/repository/909/162909-LOGO-m.png" group-title="CHANNEL | VISION+",Moonbug
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/moonbug/index.m3u8
 #EXTINF:-1 tvg-id="58" tvg-logo="https://www.visionplus.id/images/repository/670/493670-LOGO-m.png" group-title="CHANNEL | VISION+",Cebeebies
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/cebeebies/index.m3u8
 #EXTINF:-1 tvg-id="60" tvg-logo="https://www.visionplus.id/images/repository/147/75147-LOGO-m.png" group-title="CHANNEL | VISION+",Nick Jr
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="63" tvg-logo="https://www.visionplus.id/images/repository/626/626-LOGO-m.png" group-title="CHANNEL | VISION+",Zoomoo
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/zoomoo/index.m3u8
 #EXTINF:-1 tvg-id="64" tvg-logo="https://www.visionplus.id/images/repository/627/627-LOGO-m.png" group-title="CHANNEL | VISION+",Nick
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/nick/index.m3u8
 #EXTINF:-1 tvg-id="65" tvg-logo="https://www.visionplus.id/images/repository/628/628-LOGO-m.png" group-title="CHANNEL | VISION+",Animax
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/animax/index.m3u8
 #EXTINF:-1 tvg-id="67" tvg-logo="https://www.visionplus.id/images/repository/630/630-LOGO-m.png" group-title="CHANNEL | VISION+",Dreamworks
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/dreamworks/index.m3u8
 #EXTINF:-1 tvg-id="71" tvg-logo="https://www.visionplus.id/images/repository/534/172534-LOGO-m.png" group-title="CHANNEL | VISION+",Food Travel
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/foodtravel/index.m3u8
 #EXTINF:-1 tvg-id="95" tvg-logo="https://www.visionplus.id/images/repository/646/646-LOGO-m.png" group-title="CHANNEL | VISION+",Crime+ Investigation
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/crime+/index.m3u8
 #EXTINF:-1 tvg-id="101" tvg-logo="https://www.visionplus.id/images/repository/647/647-LOGO-m.png" group-title="CHANNEL | VISION+",Outdoor Channel
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/outdoor/index.m3u8
 #EXTINF:-1 tvg-id="102" tvg-logo="https://www.visionplus.id/images/repository/671/493671-LOGO-m.png" group-title="CHANNEL | VISION+",BBC Earth
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/bbcearth/index.m3u8
 #EXTINF:-1 tvg-id="103" tvg-logo="https://www.visionplus.id/images/repository/649/649-LOGO-m.png" group-title="CHANNEL | VISION+",Global Trekker
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/glibaltrekker/index.m3u8
 #EXTINF:-1 tvg-id="104" tvg-logo="https://www.visionplus.id/images/repository/650/650-LOGO-m.png" group-title="CHANNEL | VISION+",History
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/history/index.m3u8
 #EXTINF:-1 tvg-id="105" tvg-logo="https://www.visionplus.id/images/repository/682/295682-LOGO-m.png" group-title="CHANNEL | VISION+",Love Nature
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/lovenature/index.m3u8
 #EXTINF:-1 tvg-id="112" tvg-logo="https://www.visionplus.id/images/repository/652/652-LOGO-m.png" group-title="CHANNEL | VISION+",Sportstars
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=112
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 #EXTINF:-1 tvg-id="113" tvg-logo="https://www.visionplus.id/images/repository/653/653-LOGO-m.png" group-title="CHANNEL | VISION+",Sportstars 2
+#EXTGRP:CHANNEL | VISION+
 http://aflaxtv.xyz:8080/F33848/cbd9779b/304861
 #EXTINF:-1 tvg-id="9999" tvg-logo="https://www.visionplus.id/images/repository/654/654-LOGO-m.png" group-title="CHANNEL | VISION+",Sportstars 3
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=9999
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
 #EXTINF:-1 tvg-id="205" tvg-logo="https://www.visionplus.id/images/repository/691/691-LOGO-m.png" group-title="CHANNEL | VISION+",Sportstars 4
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/ss4/index.m3u8
 #EXTINF:-1 tvg-id="115" tvg-logo="https://www.visionplus.id/images/repository/655/655-LOGO-m.png" group-title="CHANNEL | VISION+",Soccer Channel
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/soccer/index.m3u8
 #EXTINF:-1 tvg-id="119" tvg-logo="https://www.visionplus.id/images/repository/856/522856-LOGO-m.png" group-title="CHANNEL | VISION+",SPOTV
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/spotv/index.m3u8
 #EXTINF:-1 tvg-id="120" tvg-logo="https://www.visionplus.id/images/repository/366/525366-LOGO-m.png" group-title="CHANNEL | VISION+",SPOTV 2
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/spotv2/index.m3u8
 #EXTINF:-1 tvg-id="121" tvg-logo="https://www.visionplus.id/images/repository/658/658-LOGO-m.png" group-title="CHANNEL | VISION+",Fight Sports
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/fightsports/index.m3u8
 #EXTINF:-1 tvg-id="122" tvg-logo="https://www.visionplus.id/images/repository/865/522865-LOGO-m.png" group-title="CHANNEL | VISION+",Bein Sports 1
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/bein1/index.m3u8
 #EXTINF:-1 tvg-id="123" tvg-logo="https://www.visionplus.id/images/repository/772/198772-LOGO-m.png" group-title="CHANNEL | VISION+",Bein Sports 2
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/bein2/index.m3u8
 #EXTINF:-1 tvg-id="124" tvg-logo="https://www.visionplus.id/images/repository/770/198770-LOGO-m.png" group-title="CHANNEL | VISION+",Bein Sports 3
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/bein3/index.m3u8
 #EXTINF:-1 tvg-id="125" tvg-logo="https://www.visionplus.id/images/repository/884/522884-LOGO-m.png" group-title="CHANNEL | VISION+",beIN SPORTS 4
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/bein4/index.m3u8
 #EXTINF:-1 tvg-id="126" tvg-logo="https://www.visionplus.id/images/repository/898/198898-LOGO-m.png" group-title="CHANNEL | VISION+",beIN SPORTS 5
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/bein5/index.m3u8
 #EXTINF:-1 tvg-id="130" tvg-logo="https://www.visionplus.id/images/repository/672/493672-LOGO-m.png" group-title="CHANNEL | VISION+",BBC News
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=130
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="131" tvg-logo="https://www.visionplus.id/images/repository/382/600382-LOGO-m.png" group-title="CHANNEL | VISION+",CNBC
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/cnbc/index.m3u8
 #EXTINF:-1 tvg-id="132" tvg-logo="https://www.visionplus.id/images/repository/662/662-LOGO-m.png" group-title="CHANNEL | VISION+",Fox News Channel
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/foxnews/index.m3u8
 #EXTINF:-1 tvg-id="133" tvg-logo="https://www.visionplus.id/images/repository/663/663-LOGO-m.png" group-title="CHANNEL | VISION+",Bloomberg
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/bloomberg/index.m3u8
 #EXTINF:-1 tvg-id="134" tvg-logo="https://www.visionplus.id/images/repository/659/659-LOGO-m.png" group-title="CHANNEL | VISION+",IDX Channel
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/idx/index.m3u8
 #EXTINF:-1 tvg-id="137" tvg-logo="https://www.visionplus.id/images/repository/664/664-LOGO-m.png" group-title="CHANNEL | VISION+",Muslim Tv
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/muslimtv/index.m3u8
 #EXTINF:-1 tvg-id="138" tvg-logo="https://www.visionplus.id/images/repository/665/665-LOGO-m.png" group-title="CHANNEL | VISION+",Life
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/life/index.m3u8
 #EXTINF:-1 tvg-id="139" tvg-logo="https://www.visionplus.id/images/repository/666/666-LOGO-m.png" group-title="CHANNEL | VISION+",Reformed 21
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=139
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="142" tvg-logo="https://www.visionplus.id/images/repository/667/667-LOGO-m.png" group-title="CHANNEL | VISION+",Music Tv
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/musictv/index.m3u8
 #EXTINF:-1 tvg-id="146" tvg-logo="https://www.visionplus.id/images/repository/670/670-LOGO-m.png" group-title="CHANNEL | VISION+",DW News
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/dwnews/index.m3u8
 #EXTINF:-1 tvg-id="147" tvg-logo="https://www.visionplus.id/images/repository/671/671-LOGO-m.png" group-title="CHANNEL | VISION+",France 24
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/france24/index.m3u8
 #EXTINF:-1 tvg-id="148" tvg-logo="https://www.visionplus.id/images/repository/672/672-LOGO-m.png" group-title="CHANNEL | VISION+",TRT World
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=148
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="149" tvg-logo="https://www.visionplus.id/images/repository/850/850-LOGO-m.png" group-title="CHANNEL | VISION+",Al Jazeera
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/aljazeera/index.m3u8
 #EXTINF:-1 tvg-id="150" tvg-logo="https://www.visionplus.id/images/repository/674/674-LOGO-m.png" group-title="CHANNEL | VISION+",RT
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=150
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="151" tvg-logo="https://www.visionplus.id/images/repository/675/675-LOGO-m.png" group-title="CHANNEL | VISION+",Euro News
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/euronews/index.m3u8
 #EXTINF:-1 tvg-id="152" tvg-logo="https://www.visionplus.id/images/repository/847/847-LOGO-m.png" group-title="CHANNEL | VISION+",CNA
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/cna/index.m3u8
 #EXTINF:-1 tvg-id="153" tvg-logo="https://www.visionplus.id/images/repository/677/677-LOGO-m.png" group-title="CHANNEL | VISION+",Alquran AlKarem
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=153
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="154" tvg-logo="https://www.visionplus.id/images/repository/678/678-LOGO-m.png" group-title="CHANNEL | VISION+",EWTN
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=154
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="155" tvg-logo="https://www.visionplus.id/images/repository/679/679-LOGO-m.png" group-title="CHANNEL | VISION+",CGTN Documentary
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://liveloveyou.my.id/gvision/widevine.php?id=155
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 tvg-id="156" tvg-logo="https://www.visionplus.id/images/repository/680/680-LOGO-m.png" group-title="CHANNEL | VISION+",CGTN
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/cgtn/index.m3u8
 #EXTINF:-1 tvg-id="157" tvg-logo="https://www.visionplus.id/images/repository/681/681-LOGO-m.png" group-title="CHANNEL | VISION+",Anhui Tv
+#EXTGRP:CHANNEL | VISION+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://dsgtq5sngxkde.cloudfront.net/anhui/index.m3u8
 #EXTINF:-1 tvg-id="1002" tvg-logo="https://www.visionplus.id/images/repository/444/92444-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1002
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2tjypxxy769fn.cloudfront.net/out/v1/39a34211e80145678ce1616b52368f99/index.mpd
 #EXTINF:-1 tvg-id="1008" tvg-logo="https://www.visionplus.id/images/repository/817/138817-LOGO-m.png" group-title="CHANNEL | VISION+",R+ LIVE
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1008
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
 #EXTINF:-1 tvg-id="1010" tvg-logo="https://www.visionplus.id/images/repository/710/112710-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 2
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1010
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 #EXTINF:-1 tvg-id="1011" tvg-logo="https://www.visionplus.id/images/repository/883/124883-LOGO-m.png" group-title="CHANNEL | VISION+",V+Sports
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1011
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/f224a4945f2f48e892fb896645a9af6b/index.mpd
 #EXTINF:-1 tvg-id="1012" tvg-logo="https://www.visionplus.id/images/repository/698/129698-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 3
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1012
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/113af3d432214f62bd6815f976bf2cd6/index.mpd
 #EXTINF:-1 tvg-id="1013" tvg-logo="https://www.visionplus.id/images/repository/509/128509-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 4
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1013
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 #EXTINF:-1 tvg-id="1014" tvg-logo="https://www.visionplus.id/images/repository/287/191287-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 5
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1014
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2o5iwa2ppb5z7.cloudfront.net/out/v1/dash/index.mpd
 #EXTINF:-1 tvg-id="1015" tvg-logo="https://www.visionplus.id/images/repository/288/191288-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 6
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1015
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/eb98aca0a1be41f7b9c05dac051a250e/index.mpd
 #EXTINF:-1 tvg-id="1016" tvg-logo="https://www.visionplus.id/images/repository/289/191289-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 7
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1016
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/113af3d432214f62bd6815f976bf2cd6/index.mpd
 #EXTINF:-1 tvg-id="1017" tvg-logo="https://www.visionplus.id/images/repository/290/191290-LOGO-m.png" group-title="CHANNEL | VISION+",V+ Live 8
+#EXTGRP:CHANNEL | VISION+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=1017
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/

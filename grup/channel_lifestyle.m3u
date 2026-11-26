@@ -1,21 +1,31 @@
 #EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/e7ypN3H.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="Asian.Food.Network.id" tvg-name="Asian Food Network", AFN
+#EXTGRP:CHANNEL | LIFESTYLE
 https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/e1273db73aa48e15144d6517f74a5a38d965f3fd/17a9069cb71209c.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/WhjmYep.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="6255" tvg-name="BBC Lifestyle", BBC Lifestyle
+#EXTGRP:CHANNEL | LIFESTYLE
 https://s7770.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/AKukiai.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="" tvg-chno="693" tvg-name="Discovering China", Discovering China
+#EXTGRP:CHANNEL | LIFESTYLE
 https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/sE1nCEC.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="DENSFoodChannel.id" tvg-name="Dens Food Channel.id", DENS Food Channel
+#EXTGRP:CHANNEL | LIFESTYLE
 http://khano.nng.cloudns.us/live/m3u8/id/dfc160946781414.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/YPTXCUF.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="DensLifeAndStyle.id" tvg-name="Dens Life And Style.id", DensLifeandStyle
+#EXTGRP:CHANNEL | LIFESTYLE
 http://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8?app_type=web&userid=lite&chname=denslife-style
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/PYCg6E5.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="FTV(HD).vn" tvg-name="FTV(HD).vn", FashionTV Asia (HD)
+#EXTGRP:CHANNEL | LIFESTYLE
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ftv.smil/manifest.mpd
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/t7gOZKa.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="FoodNetwork.uk" tvg-name="Food Network", Food Network
+#EXTGRP:CHANNEL | LIFESTYLE
 https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/205/205.mpd
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/7G9jZCQ.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="mjh-sky-hgtv" tvg-name="HGTV", HGTV HD
+#EXTGRP:CHANNEL | LIFESTYLE
 https://i.mjh.nz/.r/sky-hgtv.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/rnvVmz5.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="INFAST" tvg-chno="" tvg-name="INFAST", INFAST
+#EXTGRP:CHANNEL | LIFESTYLE
 https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/1g1UIEk.png?v=1.0.0.1" group-title="CHANNEL | LIFESTYLE" group-logo="https://warningfm.github.io/v3/img/h2a2AIf.png" tvg-id="Travelxp" tvg-chno="" tvg-name="Travelxp HD", Travelxp HD
+#EXTGRP:CHANNEL | LIFESTYLE
 https://118e957020294ec4b4750823156a73f7.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/LG-au_TravelXP/playlist.m3u8

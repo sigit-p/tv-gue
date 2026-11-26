@@ -1,19 +1,24 @@
 #EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.visionplus.id/images/repository/960/49960-SNAPSHOT-l.png" group-title="LIVE | MotoGP", SpoTV 2
+#EXTGRP:LIVE | MotoGP
 http://filexott.uk:8080/live/ahsan627/62627288292/302215.ts
 #EXTINF:-1 group-title="LIVE | MotoGP" tvg-id="" tvg-logo="https://i.pinimg.com/236x/8d/0c/a0/8d0ca0d8cb4240dfae2b0655f0bf81d5.jpg", CH 1
+#EXTGRP:LIVE | MotoGP
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd
 #EXTINF:-1 group-title="LIVE | MotoGP" tvg-id="" tvg-logo="https://i.pinimg.com/236x/8d/0c/a0/8d0ca0d8cb4240dfae2b0655f0bf81d5.jpg", CH 2
+#EXTGRP:LIVE | MotoGP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/spotv2/index.m3u8
 #EXTINF:-1 group-title="LIVE | MotoGP" tvg-id="" tvg-logo="https://i.pinimg.com/236x/8d/0c/a0/8d0ca0d8cb4240dfae2b0655f0bf81d5.jpg", CH 3
+#EXTGRP:LIVE | MotoGP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://esp32.nontonx.com/
 https://master3.hdtvs1.top/hls/0/stream.m3u8
 #EXTINF:-1 group-title="LIVE | MotoGP" tvg-id="" tvg-logo="https://i.pinimg.com/236x/8d/0c/a0/8d0ca0d8cb4240dfae2b0655f0bf81d5.jpg", CH 4
+#EXTGRP:LIVE | MotoGP
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1539f043249e413d91906036f305831e:671e24fd8d234c7f38d85055815f902a
@@ -21,5 +26,6 @@ https://master3.hdtvs1.top/hls/0/stream.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
 https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
 #EXTINF:-1 tvg-id="SkySportMotoGP.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sky_Sport_MotoGP_-_Logo_2020.svg/960px-Sky_Sport_MotoGP_-_Logo_2020.svg.png" group-title="LIVE | MotoGP", Sky Sport MotoGP (Italy)
+#EXTGRP:LIVE | MotoGP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://wahyu1ptv.pages.dev/SkySportMotoGP-HD.m3u8

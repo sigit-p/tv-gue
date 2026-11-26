@@ -1,24 +1,29 @@
 #EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ad/6b/4c/ad6b4c42ecba7531573d5c3e5a3d3a3c.jpg" group-title="LIVE | FORMULA 1", CH 1
+#EXTGRP:LIVE | FORMULA 1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=505616380de706936e493fdd1c25d0b6:5b313f49c63c682236eab3357400e216
 https://a184aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/5fjow0mrvw/out/v1/f870533ee24b4f3bb98d2afe4b1e1bac/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ad/6b/4c/ad6b4c42ecba7531573d5c3e5a3d3a3c.jpg" group-title="LIVE | FORMULA 1", CH 2
+#EXTGRP:LIVE | FORMULA 1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ad/6b/4c/ad6b4c42ecba7531573d5c3e5a3d3a3c.jpg" group-title="LIVE | FORMULA 1", CH 3
+#EXTGRP:LIVE | FORMULA 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=609d795905904705028ef54653019af7:2c791eb611e57a7d7f203022bc1b9ba3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/duqbirmk0d/out/v1/40f53c7cbc95498db3afd081c377d776/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ad/6b/4c/ad6b4c42ecba7531573d5c3e5a3d3a3c.jpg" group-title="LIVE | FORMULA 1", CH 4
+#EXTGRP:LIVE | FORMULA 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ad/6b/4c/ad6b4c42ecba7531573d5c3e5a3d3a3c.jpg" group-title="LIVE | FORMULA 1", CH 5
+#EXTGRP:LIVE | FORMULA 1
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8

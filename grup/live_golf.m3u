@@ -1,51 +1,76 @@
 #EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
 #EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS GOLF FHD" tvg-logo="https://b1gchlogos.xyz/wp-content/uploads/2024/07/Sky-Sports-Golf.png" group-title="LIVE | GOLF",SKY SPORTS GOLF FHD
+#EXTGRP:LIVE | GOLF
 http://sub.bentv.xyz:8080/live/ZbyszekPAUL/EgCBaCmA6o/438201.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Fox 503 FHD" tvg-logo="https://www.lyngsat.com/logo/tv/ff/fox-sports-503-us-au.png" group-title="LIVE | GOLF",Fox 503 FHD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1ZUF5SnFyZFFRNDdvdjNrRjVET1AyZnF5OW9WUUtCTnFraDYrbnV4NVlEZA
 #EXTINF:-1 tvg-id="" tvg-name="HK NOW GOLF 3 HD" tvg-logo="s:1:/images/_PFPECAfduyBrBSxQu9ZP9s_Z9DJRPZksDgL-URax0uw5gC3DBJu80xxn3y_Wf9j.jpg" group-title="LIVE | GOLF",HK NOW GOLF 3 HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1VVNYdVhzVUxmcGUyWWJOcmlrMlJuQUZTeGs1VVBCb3JwOHFRbFJpZFNRZQ
 #EXTINF:-1 tvg-id="" tvg-name="HK NOW GOLF 2 FHD" tvg-logo="s:1:/images/VmWzBFtnrvZybBSoEbFNL-P6g08KIEJwopm3QAkITBsKSYpvVbpfw7YuKWh9wuePXZGhN60M7-cZ8gSz2ZiDAHOvHnE_9obG0jVUCBV0-Cs.jpg" group-title="LIVE | GOLF",HK NOW GOLF 2 FHD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1YzdYbTgrMlM5TUtkVVQzcG9CRUxYUmdIeGE5bFBmdXQzQjkzKzFVeFhCNg
 #EXTINF:-1 tvg-id="" tvg-name="GOLF+ FHD" tvg-logo="https://i.imgur.com/WHnddkg.png" group-title="LIVE | GOLF",GOLF+ FHD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/Z4tVVLRpNf/2tXDtxxjbB/1104540
 #EXTINF:-1 tvg-id="" tvg-name="SUPERSPORTS GOLF FHD" tvg-logo="https://i.imgur.com/5VeJd2T.png" group-title="LIVE | GOLF",SUPERSPORTS GOLF FHD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/Z4tVVLRpNf/2tXDtxxjbB/1104540
 #EXTINF:-1 tvg-id="" tvg-name="DK: V Sport GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/845f246ff9105ba49eec3b6d1c00c427.png" group-title="LIVE | GOLF",DK: V Sport GOLF HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1Y0pQclY1eURhcUxIWlNBaktmV1dldklKZ2p6ZjJNbUdEaFQwOFFvdm44RQ
 #EXTINF:-1 tvg-id="" tvg-name="SE: V Sport GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/0de9b5c2e3ed2fc0346a675d5bfde849.png" group-title="LIVE | GOLF",SE: V Sport GOLF HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1UkxMZ21LL29iM005T3R0c1d2eFlqNVB6TkhVWUt2QjEwbFVwSUFsdUk1NA
 #EXTINF:-1 tvg-id="" tvg-name="CZ: GOLF Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/5aa846ad8e3b339954183db98908c80a.png" group-title="LIVE | GOLF",CZ: GOLF Channel HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1WGxXMjZndkE2QkpCb2dJTFA4UXJtK1EwUzFWTEN2aVVHWC9PZjZKcXNmUA
 #EXTINF:-1 tvg-id="" tvg-name="NL: Ziggo Sport GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/afe050374551a2767019f331cf74dc05.png" group-title="LIVE | GOLF",NL: Ziggo Sport GOLF HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1ZHNoN2VtVG1TdDZyb1NnWUJ5bndLbWRyZVhDbEFNQXBuamoyVjBNSjIzcw
 #EXTINF:-1 tvg-id="" tvg-name="PL: GOLF Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/5901f5d9b6bb1640c6e7e8a1b44e138e.png" group-title="LIVE | GOLF",PL: GOLF Channel HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1VXBDaytNWU94Wm45SWhMRS9VWDdxMnc0UlJtS3J1QVdSSzFkaXdjWEdUQg
 #EXTINF:-1 tvg-id="" tvg-name="LA: GOLF Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/2f7cf34df9b0ceec221e79a887171cf9.png" group-title="LIVE | GOLF",LA: GOLF Channel HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1YVVUMytVQXhJbFNncEEreHZyZW1LNW1lMFFxbkZxa0lLMHNjMXdwRlducw
 #EXTINF:-1 tvg-id="" tvg-name="EX-YU: Sport KLUB GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/913be3dd5506bb664db6b276ae3131be.png" group-title="LIVE | GOLF",EX-YU: Sport KLUB GOLF HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1UmZlWnA1VzlQYkFFRUZCMVltTGxlU1pycFhlUTNEcmdyb2ZiUTlaY296WA
 #EXTINF:-1 tvg-id="" tvg-name="FR: Golf+ HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3d5b56071d971d8a599b10a1899d5d3a.png" group-title="LIVE | GOLF",FR: Golf+ HD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/Z4tVVLRpNf/2tXDtxxjbB/1104541
 #EXTINF:-1 tvg-id="" tvg-name="FR: GOLF Channel HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/004c3db0072c16475396c8bc5757637e.png" group-title="LIVE | GOLF",FR: GOLF Channel HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1VWE3clRGVldiS1NSQmdyWkQ5dUtiSDVCTlRpV3FLY1k0VXdKVE01Zmk3OQ
 #EXTINF:-1 tvg-id="" tvg-name="DE: SKY Sport GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/4563870d73aeb6a4e7dc80094393537e.png" group-title="LIVE | GOLF",DE: SKY Sport GOLF HD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/703258
 #EXTINF:-1 tvg-id="" tvg-name="US: GOLF Kingdom HD" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="LIVE | GOLF",US: GOLF Kingdom HD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/703257
 #EXTINF:-1 tvg-id="" tvg-name="IT: SKY Sport GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/c261a5ce9a1cba8b6aaea018f04dcf84.png" group-title="LIVE | GOLF",IT: SKY Sport GOLF HD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/703256
 #EXTINF:-1 tvg-id="" tvg-name="US: GOLF Channel / NBC GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/5164471a041a09ae2a58dbfc5978f766.png" group-title="LIVE | GOLF",US: GOLF Channel / NBC GOLF HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1YXJaT2g5dWxHV29LZmhSMENVRlpMczlrMlhUTVlycUpvUUl0S0wzVTVBcw
 #EXTINF:-1 tvg-id="" tvg-name="UK: SKY Sports GOLF HD" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5acb0ff26afa4f347663d42261af36bf.png" group-title="LIVE | GOLF",UK: SKY Sports GOLF HD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/703258
 #EXTINF:-1 tvg-id="" tvg-name="NL | Ziggo Sport GOLF HD" tvg-logo="https://i.imgur.com/VJy6Mjs.png" group-title="LIVE | GOLF",NL | Ziggo Sport GOLF HD
+#EXTGRP:LIVE | GOLF
 https://filexott.uk:8443/ZERaQVUzcWl0U1lQdnFqVWtKU3p1UU5rVnRNdGErdDYyVDJUSlBJUkhhYUNibm1Dc0F6SDlQSXUzYWFCeEdQZQ
 #EXTINF:-1 tvg-id="" tvg-name="30A Golf Kingdom" tvg-logo="https://golfkingdom.net/wp-content/uploads/2022/04/golf-kingdom-st.jpg" group-title="LIVE | GOLF",30A Golf Kingdom
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/867878
 #EXTINF:-1 tvg-id="" tvg-name="Golf Channel" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="LIVE | GOLF",Golf Channel
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/867879
 #EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS GOLF FHD" tvg-logo="https://b1gchlogos.xyz/wp-content/uploads/2024/07/Sky-Sports-Golf.png" group-title="LIVE | GOLF",SKY SPORTS GOLF FHD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/867880
 #EXTINF:-1 tvg-id="" tvg-name="GOLF+ FHD" tvg-logo="https://i.imgur.com/WHnddkg.png" group-title="LIVE | GOLF",  FHD
+#EXTGRP:LIVE | GOLF
 http://45.159.94.49:8080/RolandYSN/EpX69hxWDW/867877
