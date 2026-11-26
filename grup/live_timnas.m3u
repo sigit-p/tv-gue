@@ -1,0 +1,19 @@
+#EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
+#EXTINF:-1 group-title="LIVE | TIMNAS🇮🇩" tvg-id="" tvg-logo="https://i.ibb.co.com/3FhLthP/mlive5.png",M LIVE 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6
+https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd
+#EXTINF:-1 group-title="LIVE | TIMNAS🇮🇩" tvg-id="UEFA" tvg-logo="https://thumbor.prod.vidiocdn.com/BtloAzh-O_g07HihiidUsiV-9UI=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/21593/asean-u19-boys-bank-sumut-championship-4d77b1.jpg", U 19
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-origin=https://ppdd18.plaifrdcikf.shop
+#EXTVLCOPT:http-referrer=https://ppdd18.plaifrdcikf.shop/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=timnas1&type=m3u8
+#EXTINF:-1 group-title="LIVE | TIMNAS🇮🇩" tvg-id="UEFA" tvg-logo="https://thumbor.prod.vidiocdn.com/BtloAzh-O_g07HihiidUsiV-9UI=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/21593/asean-u19-boys-bank-sumut-championship-4d77b1.jpg",U19 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-origin=https://ppdd18.plaifrdcikf.shop
+#EXTVLCOPT:http-referrer=https://ppdd18.plaifrdcikf.shop/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=timnas2&type=m3u8
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="LIVE | TIMNAS🇮🇩", FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="LIVE | TIMNAS🇮🇩", FIFA+
+https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8

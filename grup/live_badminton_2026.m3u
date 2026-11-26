@@ -1,0 +1,12 @@
+#EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LIVE | BADMINTON 2026",COURT 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-origin=https://ppdd18.plaifrdcikf.shop
+#EXTVLCOPT:http-referrer=https://ppdd18.plaifrdcikf.shop/
+http://stream.mcquack.net/188/index.m3u8
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LIVE | BADMINTON 2026",COURT 2
+https://lola95.30nqt3mainfkyl16mirror.cfd/id/badminton/kumamoto-masters-japan-2026---qualifiers-round-of-32-court-1-2268939/kumamoto-masters-japan-2026---qualifiers-round-of-32-court-1.html?icg=SUQ
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LIVE | BADMINTON 2026",COURT 3
+https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=7d80b1b50edc4c22b66af36b3b739c8d&wsABSTime=1791314618
+#EXTINF:-1 tvg-id="BULUTANGKISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/CHINA_MASTERS.png" group-title="LIVE | BADMINTON 2026",COURT LIVE
+http://tv.cloudcdn.me/live.ts?channelId=133050&uid=10223&deviceMac=00:1A:79:07:07:43

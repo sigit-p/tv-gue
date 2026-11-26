@@ -1,0 +1,25 @@
+#EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/48RdW2A.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="Bali.TV.id" tvg-name="Bali TV", Bali TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://dsgtq5sngxkde.cloudfront.net/bali/index.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/JxtgBmg.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="ChannelJowo.id" tvg-name="Channel Jowo.id", Channel Jowo
+https://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/1eaZ3bd.png?v=1.1.1.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="DAAITV.id" tvg-name="DAAI TV.id", DAAI TV
+https://khano.nng.cloudns.us/live/m3u8/id/0525ed2747e3162.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/9i6ufQh.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="ElshintaTV.id" tvg-name="Elshinta TV", Elshinta TV
+https://khano.nng.cloudns.us/live/m3u8/id/383fb71f4a76ab2.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/bKLoSVx.png?v=1.1.1.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="JTV.id" tvg-name="JTV", JTV
+http://khano.nng.cloudns.us/live/m3u8/id/226fe77699e03c6.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/NVODNmw.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="JAKTV.id" tvg-name="JAKTV", JAKTV
+https://khano.nng.cloudns.us/live/m3u8/id/a6e7e966ea54cd3.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/9sN7WXU.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="BandungTV.id" tvg-name="Bandung TV", Bandung TV
+http://khano.nng.cloudns.us/live/m3u8/id/829dbdfe0b57013.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/NH6niDL.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="DhohoTV.id@SD", Dhoho TV
+https://khano.nng.cloudns.us/live/m3u8/id/0c913970f4e013e.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/1GW0BTz.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="TVRI.id" tvg-name="TVRI", TVRI Jawa Timur
+https://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a8g.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/VLR16Or.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="TVKU" tvg-name="TVKU", TVKU
+https://khano.nng.cloudns.us/live/m3u8/id/29afb26faff1ccd.m3u8
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/pzwi2WE.png?v=1.0.0.1" group-title="CHANNEL | DAERAH" group-logo="https://warningfm.github.io/v3/img/vOExED2.png" tvg-id="dutaTV" tvg-name="duta TV", duta TV
+https://khano.nng.cloudns.us/live/m3u8/id/3254f236ad3e872.m3u8
