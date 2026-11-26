@@ -11,9 +11,20 @@ import sys
 SOURCE_URL = "https://maytv.my.id/extream3u26nov2026"
 OUTPUT_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = OUTPUT_DIR / "daftar2_full.m3u"
-SPLIT_BY_GROUP = True  # Ubah ke False jika hanya ingin membuat daftar2_full.m3u tanpa folder grup/
+SPLIT_BY_GROUP = True
 
 USER_AGENT = "OTT Navigator/1.6.7.4 (Linux;Android 11) ExoPlayerLib/2.15.1"
+
+# Aturan tebak kategori otomatis jika channel dari sumber tidak punya group-title
+AUTO_GROUP_RULES = [
+    ("INDONESIA", r"\b(rcti|sctv|indosiar|trans\s?tv|trans\s?7|mnctv|gtv|antv|tvone|metro\s?tv|kompas\s?tv|inews|tvri|net\.?\s?tv|mdtv|rtv|mochi|moji|garuda|nusantara|jtv|jak\s?tv|daai|banten|bali\s?tv|sriwijaya|tvmu|mqtv|wesal|rodja|insan\s?tv|surau|nabawi|fatwa|amm\s?tv)\b"),
+    ("SPORTS", r"\b(sport|bein|espn|fox\s?sports|arena|bola|soccer|football|premiere|premier|champions|ucl|liga|motogp|f1|ufc|wwe|nba|golf|tennis|badminton|olympic|k-plus|spo\s?tv|spotv|astro\s?super|tnt\s?sports|sky\s?sports|dazn|mola|vidio\s?sport)\b"),
+    ("MOVIES & DRAMA", r"\b(hbo|cinemax|fox\s?movies|axn|warner|thrill|celestial|hits|diva|kix|cmc|galaxy|pelangi|tvn|kbs\s?world|sbs|mbc|one\s?hd|gem|animax|zee|bollywood|untamed|rock\s?entertainment|rock\s?action|lifetime|history|discovery|nat\s?geo|animal\s?planet|bbc\s?earth|tlc)\b"),
+    ("KIDS & ANIME", r"\b(kids|cartoon|nickelodeon|nick\s?jr|disney|baby|cocomelon|boomerang|animax|aniplus|muse|dreamworks|cbeebies|da\s?vinci|mentari)\b"),
+    ("NEWS", r"\b(news|cnn|cnbc|bbc\s?world|al\s?jazeera|bloomberg|nhk|cgtn|dw|france\s?24|rt\s?news|sky\s?news|channel\s?news\s?asia|cna)\b"),
+    ("MALAYSIA & SINGAPORE", r"\b(tv1|tv2|tv3|ntv7|8tv|tv9|astro|bernama|awwal|suria|vasantham|channel\s?5|channel\s?8|channel\s?u|mediacorp)\b"),
+    ("MUSIC", r"\b(music|mtv|vh1|trace|myx|k-pop|dangdut|pop)\b"),
+]
 
 
 class PreParser(HTMLParser):
@@ -118,13 +129,36 @@ def parse_raw_lines(page: str) -> list[str]:
     return lines
 
 
+def guess_group_from_name(channel_name: str) -> str:
+    for group_label, pattern in AUTO_GROUP_RULES:
+        if re.search(pattern, channel_name, re.IGNORECASE):
+            return group_label
+    return "LAINNYA"
+
+
+def ensure_group_title_in_extinf(extinf_line: str, group_name: str) -> str:
+    """Memastikan atribut group-title selalu ada dan bersih di dalam baris #EXTINF."""
+    safe_group = group_name.replace('"', "'").strip()
+    if re.search(r'group-title="[^"]*"', extinf_line, re.IGNORECASE):
+        return re.sub(
+            r'group-title="[^"]*"',
+            f'group-title="{safe_group}"',
+            extinf_line,
+            count=1,
+            flags=re.IGNORECASE,
+        )
+    if "," in extinf_line:
+        meta, title = extinf_line.split(",", 1)
+        return f'{meta} group-title="{safe_group}",{title}'
+    return extinf_line
+
+
 def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict]]]:
-    """Memecah playlist menjadi blok channel utuh dan mengelompokkannya per group-title."""
     header = lines[0]
     grouped: dict[str, list[dict]] = defaultdict(list)
 
     current_extinf = ""
-    current_group = "LAINNYA"
+    current_group = ""
     current_name = ""
     current_props = []
     seen_entries = set()
@@ -135,35 +169,38 @@ def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict
         if upper_line.startswith("#EXTINF"):
             current_extinf = line
             current_props = []
+            current_name = line.rsplit(",", 1)[-1].strip() if "," in line else "Unknown"
 
             group_match = re.search(r'group-title="([^"]*)"', line, re.IGNORECASE)
             if group_match and group_match.group(1).strip():
                 current_group = group_match.group(1).strip()
             else:
-                current_group = "LAINNYA"
-                if "," in line:
-                    meta, title = line.split(",", 1)
-                    current_extinf = f'{meta} group-title="LAINNYA",{title}'
-
-            current_name = line.rsplit(",", 1)[-1].strip() if "," in line else "Unknown"
+                current_group = ""
 
         elif upper_line.startswith(("#KODIPROP:", "#EXTVLCOPT:", "#EXTGRP:")):
             if current_extinf:
-                if upper_line.startswith("#EXTGRP:") and current_group == "LAINNYA":
+                if upper_line.startswith("#EXTGRP:"):
                     grp_val = line.split(":", 1)[1].strip()
-                    if grp_val:
+                    if grp_val and not current_group:
                         current_group = grp_val
                 else:
                     current_props.append(line)
 
         elif re.match(r"https?://", line, re.IGNORECASE):
             if current_extinf:
+                # Jika group-title & #EXTGRP kosong, tebak kategori dari nama channel
+                if not current_group or current_group.upper() in ("UNCATEGORIZED", "UNDEFINED", "NONE", "GENERAL"):
+                    current_group = guess_group_from_name(current_name)
+
+                final_extinf = ensure_group_title_in_extinf(current_extinf, current_group)
+
                 dedup_key = (current_group, current_name.lower(), line)
                 if dedup_key not in seen_entries:
                     seen_entries.add(dedup_key)
                     grouped[current_group].append({
                         "name": current_name,
-                        "extinf": current_extinf,
+                        "group": current_group,
+                        "extinf": final_extinf,
                         "props": current_props,
                         "url": line,
                     })
@@ -174,14 +211,21 @@ def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict
 
 
 def format_channel_block(ch: dict) -> list[str]:
-    """Merapikan urutan tag per channel: #EXTINF -> #KODIPROP -> #EXTVLCOPT -> URL."""
+    """Menyertakan #EXTGRP dan group-title agar IPTVnator & OTT Navigator mengenali grup."""
     kodi_props = [p for p in ch["props"] if p.upper().startswith("#KODIPROP:")]
     vlc_opts = [p for p in ch["props"] if p.upper().startswith("#EXTVLCOPT:")]
     other_props = [
         p for p in ch["props"]
         if not p.upper().startswith(("#KODIPROP:", "#EXTVLCOPT:"))
     ]
-    return [ch["extinf"], *kodi_props, *vlc_opts, *other_props, ch["url"]]
+    return [
+        ch["extinf"],
+        f"#EXTGRP:{ch['group']}",
+        *kodi_props,
+        *vlc_opts,
+        *other_props,
+        ch["url"],
+    ]
 
 
 def slugify_filename(name: str) -> str:
@@ -217,7 +261,7 @@ def main():
         )
 
     full_output_lines = [header]
-    for group_name in grouped:
+    for group_name in sorted(grouped.keys()):
         full_output_lines.append("")
         full_output_lines.append(f"# ==================== {group_name} ====================")
         for ch in grouped[group_name]:
@@ -237,8 +281,8 @@ def main():
     print(f"Berhasil: {OUTPUT_FILE}")
     print(f"Total channel unik: {total_channels} (dalam {len(grouped)} kategori)")
     print("-" * 45)
-    for group_name, channels in grouped.items():
-        print(f"  - {group_name}: {len(channels)} channel")
+    for group_name in sorted(grouped.keys()):
+        print(f"  - {group_name}: {len(grouped[group_name])} channel")
 
 
 if __name__ == "__main__":
