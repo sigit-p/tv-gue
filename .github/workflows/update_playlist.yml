@@ -30,7 +30,8 @@ jobs:
           git add -A
           if ! git diff --staged --quiet; then
             git commit -m "Update playlist M3U"
-            git push
+            git pull --rebase origin main
+            git push origin main
           else
             echo "Tidak ada perubahan pada playlist."
           fi
