@@ -1,0 +1,31 @@
+name: Update Playlist M3U
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Jalan otomatis setiap 6 jam
+  workflow_dispatch:       # Bisa dijalankan manual lewat tombol "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Jalankan skrip scraper M3U
+        run: python update_m3u.py
+
+      - name: Commit dan push hasil ke repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add daftar2_full.m3u grup/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update playlist M3U" && git push)
