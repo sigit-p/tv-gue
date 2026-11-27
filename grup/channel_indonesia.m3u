@@ -8,11 +8,8 @@ https://op-group1-densxvisionhd-1.dens.tv/h/h207/02.m3u8
 https://flv.intechmedia.net/live/ch107.m3u8|user-agent=Mozilla/5.0
 #EXTINF:-1 tvg-id="Trans TV" tvg-name="Trans TV - Server 2" tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/transtv.png" ch-number="6" group-title="CHANNEL | INDONESIA",Trans TV
 #EXTGRP:CHANNEL | INDONESIA
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=6
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/transtv.png" group-title="CHANNEL | INDONESIA",TRANS TV HD
 #EXTGRP:CHANNEL | INDONESIA
 #EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
@@ -21,11 +18,8 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/in
 https://khano.nng.cloudns.us/live/m3u8/id/61061784f4a9270.m3u8
 #EXTINF:-1 tvg-name="TRANS 7" tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/trans7.png" group-title="CHANNEL | INDONESIA", TRANS 7
 #EXTGRP:CHANNEL | INDONESIA
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vision.mikrofast.web.id/license?id=7
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 group-title="CHANNEL | INDONESIA" tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/trans7.png",TRANS 7 HD
 #EXTGRP:CHANNEL | INDONESIA
 #EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
@@ -81,7 +75,9 @@ https://rplus.inisemar.my.id/gtv.m3u8
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTINF:-1 group-title="CHANNEL | INDONESIA" tvg-logo="https://iptvsystem.my.id/img/mnctv.png",MNCTV
 #EXTGRP:CHANNEL | INDONESIA
-http://spmid.pw:80/play/4O84I8UczkDgudZ5CjpTRrhJF9VPC4X61h7pgJ37q6g
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://dsgtq5sngxkde.cloudfront.net/mnctv/index.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/nettv.png"" group-title="CHANNEL | INDONESIA",MDTV
 #EXTGRP:CHANNEL | INDONESIA
 #EXTVLCOPT:http-referrer=http://www.dens.tv/

@@ -19,7 +19,7 @@ https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dmax.smil/manifest.mpd
 https://dsgtq5sngxkde.cloudfront.net/history/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.cz" tvg-name="" tvg-logo="https://i.ibb.co.com/DYsDT6K/natgeo.png" group-title="CHANNEL | KNOWLEDGE", NATGEO
 #EXTGRP:CHANNEL | KNOWLEDGE
-http://138.121.15.230:9002/NAT-GEO/index.m3u8
+http://aflaxtv.xyz:8080/F33848/cbd9779b/197967
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/27/d2/72/27d2727665bbf98f487a7e11be9a94f9.jpg" group-title="CHANNEL | KNOWLEDGE", Bbc Eearh
 #EXTGRP:CHANNEL | KNOWLEDGE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
