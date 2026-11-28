@@ -595,7 +595,8 @@
       <div class="logo-badge">TV</div>
       <h1>TV-Gue <span class="author-pill">sigitpbw</span></h1>
     </div>
-    <div class="header-actions">
+<div class="header-actions">
+      <span id="visitorBadge" class="badge-count" title="Pengunjung Hari Ini / Total">👁️ 0 / 0</span>
       <select id="playlistSource" class="source-switch" title="Pilih Sumber Playlist">
         <option value="./playlist/web_ready.m3u">⚡ Web Ready (CORS Safe)</option>
         <option value="./playlist/daftar2_full.m3u">📦 Full Playlist (Semua)</option>
@@ -1026,6 +1027,37 @@
     }
 
     scanCategoryBtn.addEventListener("click", scanActiveList);
+
+    async function trackDailyVisitor() {
+      const badgeEl = document.getElementById("visitorBadge");
+      const todayKey = new Date().toISOString().slice(0, 10); // Format: YYYY-MM-DD
+      const ns = "sigitpbw-tv-gue";
+      const sessionFlag = `visited_${todayKey}`;
+      const isNewSession = !sessionStorage.getItem(sessionFlag);
+
+      try {
+        const action = isNewSession ? "up" : "";
+        const [todayRes, totalRes] = await Promise.all([
+          fetch(`https://api.counterapi.dev/v1/${ns}/day-${todayKey}/${action}`),
+          fetch(`https://api.counterapi.dev/v1/${ns}/total-visits/${action}`)
+        ]);
+
+        const todayData = await todayRes.json();
+        const totalData = await totalRes.json();
+
+        if (isNewSession) {
+          sessionStorage.setItem(sessionFlag, "1");
+        }
+
+        const todayCount = todayData.count || 1;
+        const totalCount = totalData.count || 1;
+        badgeEl.textContent = `👁️ ${todayCount} hari ini • ${totalCount} total`;
+      } catch (e) {
+        badgeEl.style.display = "none";
+      }
+    }
+
+    trackDailyVisitor();
     
     loadPlaylist(playlistSourceEl.value);
   </script>
