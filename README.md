@@ -76,3 +76,6 @@ tv-gue/
 1. Klik **Add Playlist** $\rightarrow$ pilih **Add by URL**.
 2. Tempel URL `daftar2_full.m3u` (untuk melihat seluruh grup Live TV & VOD di panel kiri) atau pilih salah satu URL dari folder `grup/` di atas.
 3. Gunakan tombol **Refresh** pada daftar playlist kapan saja untuk menarik pembaruan terbaru.
+
+
+2026@sigitpbw
