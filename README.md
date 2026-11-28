@@ -29,7 +29,7 @@ https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u
 ### 2. Playlist Web Ready — Bebas DRM & Lolos CORS (Untuk Browser / IPTVnator)
 Sudah disaring otomatis oleh scanner Python agar kompatibel dengan pemutar berbasis web/browser:
 ```text
-[https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/web_ready.m3u](https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/web_ready.m3u)
+https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/web_ready.m3u
 ```
 
 ### 3. Playlist Pilihan Per Kategori (Folder `playlist/grup/`)
