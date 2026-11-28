@@ -20,8 +20,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Jalankan skrip scraper M3U
-        run: python update_m3u.py
+- name: Jalankan skrip scraper M3U & VOD
+        run: |
+          python update_m3u.py
+          python update_vod.py
+
 
       - name: Commit dan push hasil ke repo
         run: |
