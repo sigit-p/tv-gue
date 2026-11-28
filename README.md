@@ -18,7 +18,7 @@ Salin tautan di bawah ini dan masukkan ke aplikasi pemutar IPTV favorit Anda (**
 ### 1. Playlist Lengkap (Live TV + VOD dalam 1 File)
 Cocok untuk **OTT Navigator** maupun **IPTVnator** (sudah dilengkapi atribut `group-title`, `#EXTGRP`, dan `type="movie"` untuk VOD):
 ```text
-[https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u](https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u)
+https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u
 ```
 
 ### 2. Playlist Pilihan Per Kategori (Folder `playlist/grup/`)
