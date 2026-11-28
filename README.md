@@ -18,41 +18,41 @@ Salin tautan di bawah ini dan masukkan ke aplikasi pemutar IPTV favorit Anda (**
 ### 1. Playlist Lengkap (Live TV + VOD dalam 1 File)
 Cocok untuk **OTT Navigator** maupun **IPTVnator** (sudah dilengkapi atribut `group-title`, `#EXTGRP`, dan `type="movie"` untuk VOD):
 ```text
-[https://raw.githubusercontent.com/sigit-p/tv-gue/main/daftar2_full.m3u](https://raw.githubusercontent.com/sigit-p/tv-gue/main/daftar2_full.m3u)
+[https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u](https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u)
 ```
 
-### 2. Playlist Pilihan Per Kategori (Folder `grup/`)
+### 2. Playlist Pilihan Per Kategori (Folder `playlist/grup/`)
 Jika ingin memuat kategori tertentu saja agar daftar saluran lebih ringan dan ringkas di **IPTVnator**:
 
 | Kategori | Link Raw M3U |
 | :--- | :--- |
-| 🎬 **VOD Film Series** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/vod_film_series.m3u` |
-| 🇮🇩 **Indonesia (Nasional)** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_indonesia.m3u` |
-| ⭐ **Indonesia VIP** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_indonesia_vip.m3u` |
-| 🗺️ **TV Daerah** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_daerah.m3u` |
-| 🕌 **Religi** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_religi.m3u` |
-| ⚽ **Sports** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_sports.m3u` |
-| 🏆 **beIN Sports** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_bein_sport.m3u` |
-| 🎞️ **Movies** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_movies.m3u` |
-| 🍿 **HBO Group** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_hbo_grub.m3u` |
-| 🧸 **Kids** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_kids.m3u` |
-| 📰 **News** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_news.m3u` |
-| 🎭 **Entertainment** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_entertainment.m3u` |
-| 🧠 **Knowledge** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_knowledge.m3u` |
-| 🎵 **Music** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_music.m3u` |
-| 🇲🇾 **Malaysia** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_malaysia.m3u` |
-| 🇸🇬 **Singapore** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_singapore.m3u` |
-| 🇰🇷 **Korea** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/grup/channel_korea.m3u` |
+| 🎬 **VOD Film Series** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/vod_film_series.m3u` |
+| 🇮🇩 **Indonesia (Nasional)** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_indonesia.m3u` |
+| ⭐ **Indonesia VIP** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_indonesia_vip.m3u` |
+| 🗺️ **TV Daerah** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_daerah.m3u` |
+| 🕌 **Religi** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_religi.m3u` |
+| ⚽ **Sports** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_sports.m3u` |
+| 🏆 **beIN Sports** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_bein_sport.m3u` |
+| 🎞️ **Movies** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_movies.m3u` |
+| 🍿 **HBO Group** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_hbo_grub.m3u` |
+| 🧸 **Kids** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_kids.m3u` |
+| 📰 **News** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_news.m3u` |
+| 🎭 **Entertainment** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_entertainment.m3u` |
+| 🧠 **Knowledge** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_knowledge.m3u` |
+| 🎵 **Music** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_music.m3u` |
+| 🇲🇾 **Malaysia** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_malaysia.m3u` |
+| 🇸🇬 **Singapore** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_singapore.m3u` |
+| 🇰🇷 **Korea** | `https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/grup/channel_korea.m3u` |
 
-*(Daftar kategori lainnya seperti kategori VOD tambahan, Live Liga Inggris, UCL, LaLiga, Serie A, MotoGP, F1, Timnas, hingga Proliga tersedia lengkap di dalam folder [`grup/`](./grup)).*
+*(Daftar kategori lainnya seperti kategori VOD tambahan, Live Liga Inggris, UCL, LaLiga, Serie A, MotoGP, F1, Timnas, hingga Proliga tersedia lengkap di dalam folder [`playlist/grup/`](./playlist/grup)).*
 
 ---
 
 ## ⚙️ Fitur Otomatisasi
 
-* **Penggabungan Live TV & VOD:** Mengambil siaran langsung dan katalog film/series dari beberapa sumber publik sekaligus, menyatukannya ke dalam `daftar2_full.m3u`, serta memecahnya per kategori ke folder `grup/`.
+* **Penggabungan Live TV & VOD:** Mengambil siaran langsung dan katalog film/series dari beberapa sumber publik sekaligus, menyatukannya ke dalam `playlist/daftar2_full.m3u`, serta memecahnya per kategori ke folder `playlist/grup/`.
 * **Pembersihan & Standarisasi Metadata:** Mendekode karakter HTML/JSON, menghapus entri duplikat, mempertahankan direktif `#KODIPROP` (DRM) dan `#EXTVLCOPT` (User-Agent/Referer), serta membersihkan nama grup agar terbaca rapi di semua player.
-* **Web Player Terintegrasi:** Antarmuka pemutar HLS/MP4 ringan (`index.html`) yang langsung membaca `daftar2_full.m3u` via GitHub Pages.
+* **Web Player Terintegrasi:** Antarmuka pemutar HLS/MP4 ringan (`index.html`) yang langsung membaca `playlist/daftar2_full.m3u` via GitHub Pages.
 * **Auto-Sync 6 Jam Sekali:** Berjalan otomatis via GitHub Actions setiap 6 jam (`0 */6 * * *`) atau dapat dipicu manual melalui tab **Actions $\rightarrow$ Run workflow**.
 
 ---
@@ -64,10 +64,12 @@ tv-gue/
 ├── .github/
 │   └── workflows/
 │       └── update_playlist.yml   # Konfigurasi jadwal cron GitHub Actions
-├── grup/                         # Pecahan file .m3u per kategori Live TV & VOD
-├── daftar2_full.m3u              # Playlist gabungan seluruh Live TV & VOD
+├── playlist/
+│   ├── daftar2_full.m3u          # Playlist gabungan seluruh Live TV & VOD
+│   └── grup/                     # Pecahan file .m3u per kategori Live TV & VOD
+├── scripts/
+│   └── update_m3u.py             # Skrip Python parser & pengelompok saluran
 ├── index.html                    # Antarmuka Web Player (GitHub Pages)
-├── update_m3u.py                 # Skrip Python parser & pengelompok saluran
 └── README.md                     # Dokumentasi repositori
 ```
 
@@ -77,12 +79,12 @@ tv-gue/
 
 ### Di OTT Navigator (Android)
 1. Buka **Pengaturan** $\rightarrow$ **Penyedia** $\rightarrow$ **Tambah Penyedia** $\rightarrow$ **Daftar Putar**.
-2. Tempel URL `daftar2_full.m3u` di atas.
+2. Tempel URL `playlist/daftar2_full.m3u` di atas.
 3. Siaran langsung akan otomatis masuk ke tab **TV Langsung**, sementara katalog VOD masuk ke tab **Film**. Aktifkan pembaruan otomatis playlist agar selalu sinkron dengan GitHub.
 
 ### Di IPTVnator (Desktop / Web)
 1. Klik **Add Playlist** $\rightarrow$ pilih **Add by URL**.
-2. Tempel URL `daftar2_full.m3u` (untuk melihat seluruh grup Live TV & VOD di panel kiri) atau pilih salah satu URL dari folder `grup/` di atas.
+2. Tempel URL `playlist/daftar2_full.m3u` (untuk melihat seluruh grup Live TV & VOD di panel kiri) atau pilih salah satu URL dari folder `playlist/grup/` di atas.
 3. Gunakan tombol **Refresh** pada daftar playlist kapan saja untuk menarik pembaruan terbaru.
 
 ---
