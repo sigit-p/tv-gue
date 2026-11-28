@@ -254,7 +254,7 @@ def main():
     raw_lines = parse_raw_lines(page)
 
     # Tepat sebelum baris: header, grouped = parse_and_group_channels(raw_lines)
-custom_file = OUTPUT_DIR / "custom.m3u"
+custom_file = OUTPUT_DIR / "vod.m3u"
 if custom_file.exists():
     custom_lines = [
         l.strip() for l in custom_file.read_text(encoding="utf-8").splitlines()
