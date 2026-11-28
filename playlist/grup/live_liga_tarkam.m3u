@@ -1,0 +1,39 @@
+#EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
+#EXTINF:-1 data-source="Manual" group-title="LIVE | LIGA TARKAM" tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" tvg-uid="2e61e12f5293186586b8adbe67ac315d",INDOSIAR
+#EXTGRP:LIVE | LIGA TARKAM
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:http-reconnect=true
+http://spmid.pw:80/play/GilYnrCW_MM0O4y8RxRw4tvU9DgkJZwbob7tWGGp3Yw
+#EXTINF:-1 data-source="Manual" group-title="LIVE | LIGA TARKAM" tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" tvg-uid="ae8a0826b1a364c10a9ba37e1caf8460", BRI
+#EXTGRP:LIVE | LIGA TARKAM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-origin=https://lxscore.com
+#EXTVLCOPT:http-referrer=https://lxscore.com/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=bri3&type=m3u8
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" group-title="LIVE | LIGA TARKAM", BRI 1
+#EXTGRP:LIVE | LIGA TARKAM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.camel1.tv
+#EXTVLCOPT:http-referrer=https://www.camel1.tv/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=bri1&type=m3u8
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" group-title="LIVE | LIGA TARKAM", BRI 2
+#EXTGRP:LIVE | LIGA TARKAM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://livetv.rkda.my.id
+#EXTVLCOPT:http-referrer=https://livetv.rkda.my.id/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=bri2&type=m3u8
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" group-title="LIVE | LIGA TARKAM", BRI 3
+#EXTGRP:LIVE | LIGA TARKAM
+https://live2.jorvakstreamcache.com/live/channel7.m3u8
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" group-title="LIVE | LIGA TARKAM", BRI 4
+#EXTGRP:LIVE | LIGA TARKAM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://livetv.rkda.my.id
+#EXTVLCOPT:http-referrer=https://livetv.rkda.my.id/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=bri2&type=m3u8
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/bola.net/library/upload/24/2025/12/1280x720/bri-super-league-log_49d0e29.jpg" group-title="LIVE | LIGA TARKAM", BRI 5
+#EXTGRP:LIVE | LIGA TARKAM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://livetv.rkda.my.id
+#EXTVLCOPT:http-referrer=https://livetv.rkda.my.id/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=bri2&type=m3u8

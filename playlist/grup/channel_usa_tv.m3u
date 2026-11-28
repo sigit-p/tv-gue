@@ -1,0 +1,490 @@
+#EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
+#EXTINF:-1 tvg-id="CMT" tvg-name="US: CMT FHD" tvg-logo="http://fanc.tmsimg.com/assets/s15072_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: CMT FHD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127395.m3u8
+#EXTINF:-1 tvg-id="COURT" tvg-name="US: COURT TV" tvg-logo="http://fanc.tmsimg.com/assets/s111043_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: COURT TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127401.m3u8
+#EXTINF:-1 tvg-id="DLCHD" tvg-name="US: Discovery Life" tvg-logo="http://fanc.tmsimg.com/assets/s92204_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: Discovery Life
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127411.m3u8
+#EXTINF:-1 tvg-id="DVELO" tvg-name="US: DISCOVERY VELOCITY" tvg-logo="http://fanc.tmsimg.com/assets/s44794_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: DISCOVERY VELOCITY
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127412.m3u8
+#EXTINF:-1 tvg-id="FBNHD" tvg-name="US: Fox Business" tvg-logo="http://fanc.tmsimg.com/assets/s58718_ll_h3_ac.png" group-title="CHANNEL | USA TV",US: Fox Business
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127417.m3u8
+#EXTINF:-1 tvg-id="GETTV" tvg-name="US: GetTV" tvg-logo="http://fanc.tmsimg.com/assets/s82563_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: GetTV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127426.m3u8
+#EXTINF:-1 tvg-id="DHCCOHD" tvg-name="US: History" tvg-logo="http://fanc.tmsimg.com/assets/s40137_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: History
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127437.m3u8
+#EXTINF:-1 tvg-id="HLNHD" tvg-name="US: HLN" tvg-logo="http://fanc.tmsimg.com/assets/s64549_ll_h3_ab.png" group-title="CHANNEL | USA TV",US: HLN
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127438.m3u8
+#EXTINF:-1 tvg-id="IFCHD" tvg-name="US: IFC" tvg-logo="https://logodownload.org/wp-content/uploads/2020/02/ifc-logo-0.png" group-title="CHANNEL | USA TV",US: IFC
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127440.m3u8
+#EXTINF:-1 tvg-id="IDHD" tvg-name="US: Investigation Discovery" tvg-logo="http://fanc.tmsimg.com/assets/s65342_ll_h3_ac.png" group-title="CHANNEL | USA TV",US: Investigation Discovery
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127442.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US: ION TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/ION_Television_2016.svg/1200px-ION_Television_2016.svg.png" group-title="CHANNEL | USA TV",US: ION TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127443.m3u8
+#EXTINF:-1 tvg-id="NVAWRLD" tvg-name="US: Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/NOVATV-bg_logo.png" group-title="CHANNEL | USA TV",US: Nova
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127457.m3u8
+#EXTINF:-1 tvg-id="PURSTHD" tvg-name="US: PURSUIT" tvg-logo="http://fanc.tmsimg.com/assets/s60111_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: PURSUIT
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127467.m3u8
+#EXTINF:-1 tvg-id="SMITHLE" tvg-name="US: SMITHSONIAN" tvg-logo="http://fanc.tmsimg.com/assets/s108211_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: SMITHSONIAN
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127473.m3u8
+#EXTINF:-1 tvg-id="VH1" tvg-name="US: VH1 EAST" tvg-logo="http://fanc.tmsimg.com/assets/s11218_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: VH1 EAST
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127491.m3u8
+#EXTINF:-1 tvg-id="VH1P" tvg-name="US: VH1 WEST" tvg-logo="http://fanc.tmsimg.com/assets/s11218_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: VH1 WEST
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127492.m3u8
+#EXTINF:-1 tvg-id="WETVSTR" tvg-name="US: WE TV" tvg-logo="http://fanc.tmsimg.com/assets/s92020_ll_h3_ab.png" group-title="CHANNEL | USA TV",US: WE TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127494.m3u8
+#EXTINF:-1 tvg-id="BOOM" tvg-name="US: BOOMERANG HD" tvg-logo="http://fanc.tmsimg.com/assets/s21883_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: BOOMERANG HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127525.m3u8
+#EXTINF:-1 tvg-id="DISNHD" tvg-name="US: Disney Channel" tvg-logo="https://logos-world.net/wp-content/uploads/2021/08/Disney-Channel-Logo-2002-2014.png" group-title="CHANNEL | USA TV",US: Disney Channel
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127542.m3u8
+#EXTINF:-1 tvg-id="DISJMXE" tvg-name="US: Disney Jr" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/89/Disney_Junior_2020.png/revision/latest/scale-to-width-down/1200?cb=20210617173806&path-prefix=es" group-title="CHANNEL | USA TV",US: Disney Jr
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127543.m3u8
+#EXTINF:-1 tvg-id="CNIKPHD" tvg-name="US: NICKELODEON" tvg-logo="http://fanc.tmsimg.com/assets/s59432_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: NICKELODEON
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127583.m3u8
+#EXTINF:-1 tvg-id="TOONLSE" tvg-name="US: Cartoon Network" tvg-logo="http://www.tmsimg.com/assets/s59562_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: Cartoon Network
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/128497.m3u8
+#EXTINF:-1 tvg-id="DXDHD" tvg-name="US: Disney XD EAST" tvg-logo="http://fanc.tmsimg.com/assets/s60006_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: Disney XD EAST
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/128503.m3u8
+#EXTINF:-1 tvg-id="NKJRUKH" tvg-name="US: NICK JR" tvg-logo="http://fanc.tmsimg.com/assets/s105143_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: NICK JR
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/128507.m3u8
+#EXTINF:-1 tvg-id="NICKTME" tvg-name="US: NICKTOONS" tvg-logo="http://fanc.tmsimg.com/assets/s105687_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: NICKTOONS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/128508.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US: TEENNICK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZlZAnKf5fO9jo2oydOUGWu5Vqve3WaVruHLHEAUHGuUWn3bpeL3c0yd1loHWHV6UKA&usqp=CAU" group-title="CHANNEL | USA TV",US: TEENNICK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/128510.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US: Newsy" tvg-logo="https://cdn.newsy.com/images/settings/orig/1584113020.png" group-title="CHANNEL | USA TV",US: Newsy
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/185523.m3u8
+#EXTINF:-1 tvg-id="TYT" tvg-name="US: TYT Network" tvg-logo="http://fanc.tmsimg.com/assets/s107478_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: TYT Network
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/185529.m3u8
+#EXTINF:-1 tvg-id="TMFRE16" tvg-name="US: Tastemade" tvg-logo="http://fanc.tmsimg.com/assets/s98858_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: Tastemade
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/185597.m3u8
+#EXTINF:-1 tvg-id="CBNSTR" tvg-name="US: Cheddar" tvg-logo="http://fanc.tmsimg.com/assets/s107241_ll_h3_ab.png" group-title="CHANNEL | USA TV",US: Cheddar
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/185719.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Weather" tvg-logo="https://od.lk/s/MF8yNTA4MTgzOTJf/FoxWeather_420x420.png" group-title="CHANNEL | USA TV",US: Fox Weather
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/186238.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US: Weather Nation" tvg-logo="https://od.lk/s/MF8yMjY2MjMxMDVf/WeatherNation.png" group-title="CHANNEL | USA TV",US: Weather Nation
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/186240.m3u8
+#EXTINF:-1 tvg-id="QVC2HD" tvg-name="US: QVC 2" tvg-logo="http://fanc.tmsimg.com/assets/s82696_ll_h3_ac.png" group-title="CHANNEL | USA TV",US: QVC 2
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/186333.m3u8
+#EXTINF:-1 tvg-id="DECADES" tvg-name="US: DECADES" tvg-logo="http://fanc.tmsimg.com/assets/s91415_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: DECADES
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/186795.m3u8
+#EXTINF:-1 tvg-id="MNBCHD" tvg-name="US: MSNBC" tvg-logo="http://fanc.tmsimg.com/assets/s64241_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: MSNBC
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/186847.m3u8
+#EXTINF:-1 tvg-id="BBCAHD" tvg-name="US: BBC America HD" tvg-logo="http://fanc.tmsimg.com/assets/s64492_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: BBC America HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195206.m3u8
+#EXTINF:-1 tvg-id="CNNSAP" tvg-name="US: CNN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBbXqH0snkL_1kMUsQ-koeTY16ZR9WI5FVlPzE1HMjGkqggHicgEIu6FUVVkEhjD2Tt4&usqp=CAU" group-title="CHANNEL | USA TV",US: CNN
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195588.m3u8
+#EXTINF:-1 tvg-id="NEWSMXH" tvg-name="US: NEWSMAX TV" tvg-logo="http://fanc.tmsimg.com/assets/s97163_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: NEWSMAX TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195608.m3u8
+#EXTINF:-1 tvg-id="WEATHER" tvg-name="US: WEATHER CHANNEL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/1200px-The_Weather_Channel_logo_2005-present.svg.png" group-title="CHANNEL | USA TV",US: WEATHER CHANNEL
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/196218.m3u8
+#EXTINF:-1 tvg-id="BBCWDE" tvg-name="US: BBC World" tvg-logo="http://fanc.tmsimg.com/assets/s36844_ll_h3_ac.png" group-title="CHANNEL | USA TV",US: BBC World
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/211354.m3u8
+#EXTINF:-1 tvg-id="CNNIBHD" tvg-name="US: CNN INTERNATIONAL" tvg-logo="http://fanc.tmsimg.com/assets/s106616_ll_h3_aa.png" group-title="CHANNEL | USA TV",US: CNN INTERNATIONAL
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/200960.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ABC Bakersfield" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdPsCA03-gc10XhbQEkpk_bUyUbVx-SlTlxc2CV9YYZRTt6qljpCsNn9X4MuotrA1YKU&usqp=CAU" group-title="CHANNEL | USA TV",ABC Bakersfield
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/214704.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ABC NEW YORK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/640px-ABC-2021-LOGO.svg.png" group-title="CHANNEL | USA TV",ABC NEW YORK HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/214708.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ABC CHICAGO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/640px-ABC-2021-LOGO.svg.png" group-title="CHANNEL | USA TV",ABC CHICAGO
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/214710.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: American Heroes Channel" tvg-logo="http://iptvboss.xyz/logos/USA/AmericanHeroesChannel.us.png" group-title="CHANNEL | USA TV",USA: American Heroes Channel
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437463.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Animal Planet East HD" tvg-logo="http://fanc.tmsimg.com/assets/s57394_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: Animal Planet East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437464.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Animal Planet West FHD" tvg-logo="http://fanc.tmsimg.com/assets/s16331_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: Animal Planet West FHD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437465.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Destination America HD" tvg-logo="http://iptvboss.xyz/logos/USA/DestinationAmerica.us.png" group-title="CHANNEL | USA TV",USA: Destination America HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437466.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Discovery Channel East HD" tvg-logo="http://iptvboss.xyz/logos/USA/DiscoveryChannel.us.png" group-title="CHANNEL | USA TV",USA: Discovery Channel East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437467.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Discovery Channel West" tvg-logo="http://fanc.tmsimg.com/assets/s15798_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: Discovery Channel West
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437468.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Discovery Life" tvg-logo="http://iptvboss.xyz/logos/USA/DiscoveryLifeChannel.us.png" group-title="CHANNEL | USA TV",USA: Discovery Life
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437469.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: History East HD" tvg-logo="http://fanc.tmsimg.com/assets/s40137_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: History East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437470.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: DISCOVERY FAMILY" tvg-logo="http://fanc.tmsimg.com/assets/s67749_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: DISCOVERY FAMILY
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437471.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: INVESTIGATION DISCOVERY" tvg-logo="http://iptvboss.xyz/logos/UK/InvestigationDiscovery.uk.png" group-title="CHANNEL | USA TV",USA: INVESTIGATION DISCOVERY
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437472.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Military History" tvg-logo="http://fanc.tmsimg.com/assets/s48999_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: Military History
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437473.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nat Geo Wild HD" tvg-logo="http://iptvboss.xyz/logos/USA/NationalGeographicWild.us.png" group-title="CHANNEL | USA TV",USA: Nat Geo Wild HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437475.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: National Geographic HD" tvg-logo="http://fanc.tmsimg.com/assets/s25068_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: National Geographic HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437476.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Pursuit Channel" tvg-logo="http://iptvboss.xyz/logos/USA/PursuitChannel.us.png" group-title="CHANNEL | USA TV",USA: Pursuit Channel
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437477.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Science HD" tvg-logo="http://iptvboss.xyz/logos/USA/ScienceChannel.us.png" group-title="CHANNEL | USA TV",USA: Science HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437478.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Smithsonian" tvg-logo="http://iptvboss.xyz/logos/USA/SmithsonianNetwork.us.png" group-title="CHANNEL | USA TV",USA: Smithsonian
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437479.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Travel Channel" tvg-logo="http://iptvboss.xyz/logos/USA/TravelChannel.us.png" group-title="CHANNEL | USA TV",USA: Travel Channel
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437480.m3u8
+#EXTINF:-1 tvg-id="USAK3508710A" tvg-name="USA: LAW & CRIME NETWORK" tvg-logo="https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s900-c-k-c0x00ffffff-no-rj" group-title="CHANNEL | USA TV",USA: LAW & CRIME NETWORK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437481.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: PBS KIDS" tvg-logo="http://fanc.tmsimg.com/assets/s101364_h3_aa.png" group-title="CHANNEL | USA TV",USA: PBS KIDS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437482.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: BABY TV" tvg-logo="https://static.epg.best/gb/BabyTV.uk.png" group-title="CHANNEL | USA TV",USA: BABY TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437483.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Cartoon Network East HD" tvg-logo="http://fanc.tmsimg.com/assets/s59562_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: Cartoon Network East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437485.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Disney Channel East HD" tvg-logo="http://iptvboss.xyz/logos/USA/DisneyChannel.us.png" group-title="CHANNEL | USA TV",USA: Disney Channel East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437487.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Disney Channel West HD" tvg-logo="http://fanc.tmsimg.com/assets/s10171_ll_h3_ae.png" group-title="CHANNEL | USA TV",USA: Disney Channel West HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437488.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Disney Jr East HD" tvg-logo="http://fanc.tmsimg.com/assets/s74885_h3_aa.png" group-title="CHANNEL | USA TV",USA: Disney Jr East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437489.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Disney Jr West HD" tvg-logo="http://fanc.tmsimg.com/assets/s74885_h3_aa.png" group-title="CHANNEL | USA TV",USA: Disney Jr West HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437490.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Disney XD East HD" tvg-logo="http://fanc.tmsimg.com/assets/s60006_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: Disney XD East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437491.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Disney XD West HD" tvg-logo="http://fanc.tmsimg.com/assets/s18279_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: Disney XD West HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437492.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nick Jr West FHD" tvg-logo="http://iptvboss.xyz/logos/USA/NickJr.us.png" group-title="CHANNEL | USA TV",USA: Nick Jr West FHD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437493.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nick Jr. East" tvg-logo="http://iptvboss.xyz/logos/USA/NickJr.us.png" group-title="CHANNEL | USA TV",USA: Nick Jr. East
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437494.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nick Music" tvg-logo="http://iptvboss.xyz/logos/USA/NickMusic.us.png" group-title="CHANNEL | USA TV",USA: Nick Music
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437495.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nickelodeon East" tvg-logo="http://iptvboss.xyz/logos/USA/Nickelodeon.us.png" group-title="CHANNEL | USA TV",USA: Nickelodeon East
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437496.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nickelodeon West" tvg-logo="http://iptvboss.xyz/logos/USA/Nickelodeon.us.png" group-title="CHANNEL | USA TV",USA: Nickelodeon West
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437497.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Nicktoons HD" tvg-logo="http://iptvboss.xyz/logos/USA/Nicktoons.us.png" group-title="CHANNEL | USA TV",USA: Nicktoons HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437498.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: TeenNick HD" tvg-logo="http://iptvboss.xyz/logos/USA/TeenNickPacific.us.png" group-title="CHANNEL | USA TV",USA: TeenNick HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437499.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Universal Kids East HD" tvg-logo="http://iptvboss.xyz/logos/USA/UniversalKidsPacific.us.png" group-title="CHANNEL | USA TV",USA: Universal Kids East HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/437500.m3u8
+#EXTINF:-1 tvg-id="USBB4800005VO" tvg-name="USA: CBS SPORTS" tvg-logo="https://pbs.twimg.com/profile_images/1356268043941380099/QHq2W42n_400x400.jpg" group-title="CHANNEL | USA TV",USA: CBS SPORTS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195873.m3u8
+#EXTINF:-1 tvg-id="CNBC" tvg-name="USA: CNBC HD" tvg-logo="http://fanc.tmsimg.com/assets/s10139_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: CNBC HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195857.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: NBC UNIVERSO" tvg-logo="https://yt3.googleusercontent.com/cLvQT9D9ancnO6lfP1RIxnnOomBb6RblE8Ovf-s4zayX7bAPC8sDU7Lg4U7gWbgV9gpgnb9c-A=s900-c-k-c0x00ffffff-no-rj" group-title="CHANNEL | USA TV",USA: NBC UNIVERSO
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/247242.m3u8
+#EXTINF:-1 tvg-id="NBCSBA" tvg-name="USA: NBC Sports Bay Area Plus" tvg-logo="http://fanc.tmsimg.com/assets/s11109_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: NBC Sports Bay Area Plus
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195825.m3u8
+#EXTINF:-1 tvg-id="NBCSBAH" tvg-name="USA: NBC Sports Bay Area" tvg-logo="http://fanc.tmsimg.com/assets/s63138_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: NBC Sports Bay Area
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195826.m3u8
+#EXTINF:-1 tvg-id="NBCSBH" tvg-name="USA: NBC Sports Boston" tvg-logo="http://fanc.tmsimg.com/assets/s49198_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: NBC Sports Boston
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195827.m3u8
+#EXTINF:-1 tvg-id="NBSCAHD" tvg-name="USA: NBC Sports California" tvg-logo="http://fanc.tmsimg.com/assets/s45540_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: NBC Sports California
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195829.m3u8
+#EXTINF:-1 tvg-id="NBCSCHD" tvg-name="USA: NBC Sports Chicago" tvg-logo="http://fanc.tmsimg.com/assets/s44905_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: NBC Sports Chicago
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195830.m3u8
+#EXTINF:-1 tvg-id="NSCHP" tvg-name="USA: NBC SPORTS NOW" tvg-logo="http://fanc.tmsimg.com/assets/s45948_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: NBC SPORTS NOW
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195831.m3u8
+#EXTINF:-1 tvg-id="NBCSWA" tvg-name="USA: NBC Sports Washington" tvg-logo="http://fanc.tmsimg.com/assets/s10271_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: NBC Sports Washington
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195835.m3u8
+#EXTINF:-1 tvg-id="TCNHD" tvg-name="USA: NBC Sports Philadelphia Plus" tvg-logo="http://fanc.tmsimg.com/assets/s88829_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: NBC Sports Philadelphia Plus
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/191144.m3u8
+#EXTINF:-1 tvg-id="NBCSPAH" tvg-name="USA: NBC Sports Philadelphia" tvg-logo="http://fanc.tmsimg.com/assets/s32571_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: NBC Sports Philadelphia
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/191145.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: ESPN DEPORTES" tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespndeportes_white.png" group-title="CHANNEL | USA TV",USA: ESPN DEPORTES
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195752.m3u8
+#EXTINF:-1 tvg-id="FXDEPHD" tvg-name="USA: FOX DEPORTES HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7CMrbJCG7eAX-h8qju_5LC0GPR3Z5bPEQRQ&s" group-title="CHANNEL | USA TV",USA: FOX DEPORTES HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195771.m3u8
+#EXTINF:-1 tvg-id="FSCPLHD" tvg-name="USA: FOX SOCCER PLUS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAi6zvNBqQ-h7s3yTDCmPtPXfDyFNXd_mQLg&s" group-title="CHANNEL | USA TV",USA: FOX SOCCER PLUS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195772.m3u8
+#EXTINF:-1 tvg-id="FUBOSN" tvg-name="USA: FUBO SPORTS NETWORK" tvg-logo="https://i.ibb.co/zrF7fPs/logo-fubo-sports-network.png" group-title="CHANNEL | USA TV",USA: FUBO SPORTS NETWORK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195775.m3u8
+#EXTINF:-1 tvg-id="PAC12" tvg-name="USA: PAC- 12 Insider" tvg-logo="http://fanc.tmsimg.com/assets/s76366_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: PAC- 12 Insider
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/122022.m3u8
+#EXTINF:-1 tvg-id="BEINS1" tvg-name="USA: BEIN SPORTS" tvg-logo="http://fanc.tmsimg.com/assets/s76942_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: BEIN SPORTS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/113997.m3u8
+#EXTINF:-1 tvg-id="BEINX" tvg-name="USA: beIN SPORTS XTRA HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b6/Xtra.png/revision/latest/smart/width/386/height/259?cb=20201108180634" group-title="CHANNEL | USA TV",USA: beIN SPORTS XTRA HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195798.m3u8
+#EXTINF:-1 tvg-id="BEINSP4" tvg-name="BEIN SPORTS 4" tvg-logo="http://fanc.tmsimg.com/assets/s92443_ll_h3_aa.png" group-title="CHANNEL | USA TV",BEIN SPORTS 4
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/295916.m3u8
+#EXTINF:-1 tvg-id="BEINSP5" tvg-name="BEIN SPORTS 5" tvg-logo="http://fanc.tmsimg.com/assets/s92439_ll_h3_aa.png" group-title="CHANNEL | USA TV",BEIN SPORTS 5
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/295917.m3u8
+#EXTINF:-1 tvg-id="BEINSP6" tvg-name="BEIN SPORTS 6" tvg-logo="http://fanc.tmsimg.com/assets/s92437_ll_h3_aa.png" group-title="CHANNEL | USA TV",BEIN SPORTS 6
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/295918.m3u8
+#EXTINF:-1 tvg-id="BEINSP6" tvg-name="BeIN SPORT 3 HD" tvg-logo="http://fanc.tmsimg.com/assets/s92437_ll_h3_aa.png" group-title="CHANNEL | USA TV",BeIN SPORT 3 HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195805.m3u8
+#EXTINF:-1 tvg-id="BEINSP7" tvg-name="BEIN SPORTS 7" tvg-logo="http://fanc.tmsimg.com/assets/s92438_ll_h3_aa.png" group-title="CHANNEL | USA TV",BEIN SPORTS 7
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/295919.m3u8
+#EXTINF:-1 tvg-id="BEINSP8" tvg-name="BEIN SPORTS 8" tvg-logo="http://fanc.tmsimg.com/assets/s92436_ll_h3_aa.png" group-title="CHANNEL | USA TV",BEIN SPORTS 8
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/295920.m3u8
+#EXTINF:-1 tvg-id="MSGN" tvg-name="USA: MSG HD" tvg-logo="http://fanc.tmsimg.com/assets/s10979_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: MSG HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195816.m3u8
+#EXTINF:-1 tvg-id="MSGPLHD" tvg-name="USA: MSG Plus HD" tvg-logo="http://fanc.tmsimg.com/assets/s11105_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: MSG Plus HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195817.m3u8
+#EXTINF:-1 tvg-id="MSGPL2H" tvg-name="USA:  MSG 2 PLUS" tvg-logo="http://fanc.tmsimg.com/assets/s11105_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA:  MSG 2 PLUS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195818.m3u8
+#EXTINF:-1 tvg-id="MSGP3HD" tvg-name="USA:  MSG 3 PLUS" tvg-logo="http://fanc.tmsimg.com/assets/s11105_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA:  MSG 3 PLUS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195819.m3u8
+#EXTINF:-1 tvg-id="DPSNWHD" tvg-name="USA: SPORTSNET WEST" tvg-logo="http://fanc.tmsimg.com/assets/s61742_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: SPORTSNET WEST
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/128485.m3u8
+#EXTINF:-1 tvg-id="SNY" tvg-name="USA: SPORTSNET NY" tvg-logo="http://www.tmsimg.com/assets/s49603_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: SPORTSNET NY
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195912.m3u8
+#EXTINF:-1 tvg-id="SSNLA" tvg-name="USA: SPORTSNET LA DODGERS" tvg-logo="http://www.tmsimg.com/assets/s87023_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: SPORTSNET LA DODGERS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195851.m3u8
+#EXTINF:-1 tvg-id="SSNLA" tvg-name="USA: SPECTRUM SPORTSNET (Lakers)" tvg-logo="http://fanc.tmsimg.com/assets/s87023_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: SPECTRUM SPORTSNET (Lakers)
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195853.m3u8
+#EXTINF:-1 tvg-id="ATTLVHD" tvg-name="USA: SPORTSNET EAST" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcoJK-xh_Yt5Rv6-zFKWOeDd4maDSzU5VC2Q&s" group-title="CHANNEL | USA TV",USA: SPORTSNET EAST
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195849.m3u8
+#EXTINF:-1 tvg-id="ATTSWHD" tvg-name="USA: AT&T SportsNet Southwest" tvg-logo="http://fanc.tmsimg.com/assets/s77744_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: AT&T SportsNet Southwest
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/303974.m3u8
+#EXTINF:-1 tvg-id="ATTSWHD" tvg-name="USA: AT&T Sportsnet South West" tvg-logo="http://fanc.tmsimg.com/assets/s77744_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: AT&T Sportsnet South West
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195850.m3u8
+#EXTINF:-1 tvg-id="WFNUSHD" tvg-name="USA: World Fish Network HD" tvg-logo="http://fanc.tmsimg.com/assets/s64046_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: World Fish Network HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195854.m3u8
+#EXTINF:-1 tvg-id="YESHDNY" tvg-name="USA: YES NETWORK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkzrZDselDYSoyJuBiJtX9GNa1sXh7Sz9RAw&s" group-title="CHANNEL | USA TV",USA: YES NETWORK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195855.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: VSiN" tvg-logo="https://i.ibb.co/Kw9Rp5w/logo-300x157-bg-1.png" group-title="CHANNEL | USA TV",USA: VSiN
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195870.m3u8
+#EXTINF:-1 tvg-id="BIG10HD" tvg-name="USA: BIG TEN NETWORK" tvg-logo="http://fanc.tmsimg.com/assets/s58321_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: BIG TEN NETWORK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195871.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Game+" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c1/Game_Plus_Neetwork.png" group-title="CHANNEL | USA TV",USA: Game+
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195876.m3u8
+#EXTINF:-1 tvg-id="GINXTV" tvg-name="USA: GINX ESports" tvg-logo="https://www.newslinereport.com/online/nota_ginx-esports-tv-llega-a-amrica-latina.jpg" group-title="CHANNEL | USA TV",USA: GINX ESports
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195877.m3u8
+#EXTINF:-1 tvg-id="NESN" tvg-name="USA: NESN HD" tvg-logo="http://www.tmsimg.com/assets/s10996_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: NESN HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195890.m3u8
+#EXTINF:-1 tvg-id="NESNPLD" tvg-name="USA: NESN PLUS" tvg-logo="http://fanc.tmsimg.com/assets/s63516_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: NESN PLUS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195891.m3u8
+#EXTINF:-1 tvg-id="ELVN" tvg-name="USA: ELEVEN SPORTS" tvg-logo="http://fanc.tmsimg.com/assets/s72761_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: ELEVEN SPORTS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195914.m3u8
+#EXTINF:-1 tvg-id="ATTPTHD" tvg-name="USA: AT&T SportsNet Pittsburgh" tvg-logo="http://fanc.tmsimg.com/assets/s26028_h3_aa.png" group-title="CHANNEL | USA TV",USA: AT&T SportsNet Pittsburgh
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/303975.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: FanDuel Sports Oklahoma" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLc0McBlE6I4rFBuy8fFHzgv6Mp8BvC38k9g&s" group-title="CHANNEL | USA TV",USA: FanDuel Sports Oklahoma
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/193420.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: FanDuel Sports New Orleans" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLc0McBlE6I4rFBuy8fFHzgv6Mp8BvC38k9g&s" group-title="CHANNEL | USA TV",USA: FanDuel Sports New Orleans
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/193409.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: FanDuel Sports Arizona" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLc0McBlE6I4rFBuy8fFHzgv6Mp8BvC38k9g&s" group-title="CHANNEL | USA TV",USA: FanDuel Sports Arizona
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/193396.m3u8
+#EXTINF:-1 tvg-id="TRACSP" tvg-name="USA: TRACE SPORTS" tvg-logo="https://trace.tv/trace-sport-stars/wp-content/uploads/sites/26/2016/11/logo_sport-1.png" group-title="CHANNEL | USA TV",USA: TRACE SPORTS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/208698.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Marquee Sports Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Marquee_Sports_Network_Logo.svg/1200px-Marquee_Sports_Network_Logo.svg.png" group-title="CHANNEL | USA TV",Marquee Sports Network
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/296999.m3u8
+#EXTINF:-1 tvg-id="WFNUS" tvg-name="World Fishing Network (US)" tvg-logo="http://fanc.tmsimg.com/assets/s63234_ll_h3_aa.png" group-title="CHANNEL | USA TV",World Fishing Network (US)
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/296985.m3u8
+#EXTINF:-1 tvg-id="AXSTV" tvg-name="USA: AXS TV" tvg-logo="https://i.ibb.co/hKdhJtB/AXSTV-Logo.jpg" group-title="CHANNEL | USA TV",USA: AXS TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/212120.m3u8
+#EXTINF:-1 tvg-id="NFLCET" tvg-name="USA: NFL FHD" tvg-logo="https://i.ibb.co/n6sRXLk/NFL-Network-logo.jpg" group-title="CHANNEL | USA TV",USA: NFL FHD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/202780.m3u8
+#EXTINF:-1 tvg-id="ALTSPHD" tvg-name="USA: Altitude Sports HD" tvg-logo="http://fanc.tmsimg.com/assets/s44263_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: Altitude Sports HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195863.m3u8
+#EXTINF:-1 tvg-id="ALTHD" tvg-name="USA: ALTITUDE SPORTS ALT HD" tvg-logo="http://fanc.tmsimg.com/assets/s44263_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: ALTITUDE SPORTS ALT HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195910.m3u8
+#EXTINF:-1 tvg-id="TENISHD" tvg-name="USA: TENNIS CHANNEL" tvg-logo="http://fanc.tmsimg.com/assets/s60316_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: TENNIS CHANNEL
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195903.m3u8
+#EXTINF:-1 tvg-id="TENISHD" tvg-name="USA: TENNIS CHANNEL HD" tvg-logo="http://fanc.tmsimg.com/assets/s60316_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: TENNIS CHANNEL HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195840.m3u8
+#EXTINF:-1 tvg-id="SPMANHD" tvg-name="USA: Sportsman Channel" tvg-logo="http://fanc.tmsimg.com/assets/s60399_ll_h3_ad.png" group-title="CHANNEL | USA TV",USA: Sportsman Channel
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195897.m3u8
+#EXTINF:-1 tvg-id="SNYCTHD" tvg-name="USA: SNY HD" tvg-logo="https://thestreamable.com/media/pages/channels/sportsnet-ny/ae941e67e5-1616526712/sportsnet-ny-banner-1536x864-crop.png" group-title="CHANNEL | USA TV",USA: SNY HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195848.m3u8
+#EXTINF:-1 tvg-id="FS1HD" tvg-name="USA: Fox Sports 1 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRhd5pT4lG8fivps-aFa1khaeiffrjvFClVwD9iHYnT2mM6bzEMcXw7wSr3cFPEyz8MQ&usqp=CAU" group-title="CHANNEL | USA TV",USA: Fox Sports 1 HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195769.m3u8
+#EXTINF:-1 tvg-id="FS2HD" tvg-name="USA: Fox Sports 2 HD" tvg-logo="https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/small.gallery_11278_7_8373.png.49f811712778fc3f735783ffc05b630a.png" group-title="CHANNEL | USA TV",USA: Fox Sports 2 HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195770.m3u8
+#EXTINF:-1 tvg-id="ACC" tvg-name="USA: ACC Network" tvg-logo="http://www.tmsimg.com/assets/s111871_ll_h3_ac.png" group-title="CHANNEL | USA TV",USA: ACC Network
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/185944.m3u8
+#EXTINF:-1 tvg-id="SECH" tvg-name="USA: SEC NETWORK (ESPN)" tvg-logo="http://fanc.tmsimg.com/assets/s89714_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: SEC NETWORK (ESPN)
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195866.m3u8
+#EXTINF:-1 tvg-id="ACC" tvg-name="USA: ACC NETWORK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSGp5MxF5LQZ8zPrAsUECwakMgB0lxHAnLw&s" group-title="CHANNEL | USA TV",USA: ACC NETWORK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195766.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: ESPN NEWS" tvg-logo="https://static.epg.best/us/ESPNNews.us.png" group-title="CHANNEL | USA TV",USA: ESPN NEWS
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195754.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: ESPN U" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ESPN_U_logo.svg/1024px-ESPN_U_logo.svg.png" group-title="CHANNEL | USA TV",USA: ESPN U
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195749.m3u8
+#EXTINF:-1 tvg-id="ESPN2" tvg-name="USA: ESPN 2" tvg-logo="http://a.espncdn.com/prod/assets/watchespn/appletv/images/channels-carousel/espn2.png" group-title="CHANNEL | USA TV",USA: ESPN 2
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195745.m3u8
+#EXTINF:-1 tvg-id="ESPN" tvg-name="USA: ESPN HD" tvg-logo="https://1000logos.net/wp-content/uploads/2017/01/espn-symbol.jpg" group-title="CHANNEL | USA TV",USA: ESPN HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195743.m3u8
+#EXTINF:-1 tvg-id="MTHD" tvg-name="USA:  MotorTrend HD" tvg-logo="https://i.ibb.co/ZKNpb7g/2560px-Motor-Trend-logo-svg.png" group-title="CHANNEL | USA TV",USA:  MotorTrend HD
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/195813.m3u8
+#EXTINF:-1 tvg-id="MAVTV" tvg-name="USA: MavTv" tvg-logo="http://fanc.tmsimg.com/assets/s45169_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: MavTv
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/185790.m3u8
+#EXTINF:-1 tvg-id="OUTSTV" tvg-name="USA: OUTSIDE TV" tvg-logo="https://images.squarespace-cdn.com/content/v1/55ce3b3fe4b0f9761b011e9e/1492018648879-KQL4BZX3F624AZXD9OUN/outside-tv-logo-e1448562190817.png" group-title="CHANNEL | USA TV",USA: OUTSIDE TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/127459.m3u8
+#EXTINF:-1 tvg-id="STADIUM" tvg-name="USA: Stadium" tvg-logo="https://i.ibb.co/Ct9dt1j/unnamed.png" group-title="CHANNEL | USA TV",USA: Stadium
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/122030.m3u8
+#EXTINF:-1 tvg-id="NHLNET" tvg-name="USA: NHL NETWORK" tvg-logo="http://fanc.tmsimg.com/assets/s58570_ll_h3_ab.png" group-title="CHANNEL | USA TV",USA: NHL NETWORK
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/108862.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Billiard TV" tvg-logo="https://www.sportstribal.tv/home/wp-content/uploads/2021/07/billiard-logo-sml.png" group-title="CHANNEL | USA TV",USA: Billiard TV
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/378081.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Womens Sports Network" tvg-logo="https://www.womensfortmyerstipoff.com/wp-content/uploads/2023/11/WSN_LogoFuego-1024x253.png" group-title="CHANNEL | USA TV",USA: Womens Sports Network
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/394986.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: FUBO SPORTS NETWORK 2" tvg-logo="https://variety.com/wp-content/uploads/2019/06/fubo-sports-network-logo-dark.jpg?w=1000&h=563&crop=1" group-title="CHANNEL | USA TV",USA: FUBO SPORTS NETWORK 2
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/409036.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="USA: Arizona's Family Sports" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/gray/EUKKPQX43NGPVF4GDBQPEV67DI.png" group-title="CHANNEL | USA TV",USA: Arizona's Family Sports
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/409037.m3u8
+#EXTINF:-1 tvg-id="GOLFHDB" tvg-name="USA: GOLF CHANNEL" tvg-logo="http://www.tmsimg.com/assets/s65385_ll_h3_aa.png" group-title="CHANNEL | USA TV",USA: GOLF CHANNEL
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/478719.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CBS Sports Golazo" tvg-logo="https://yt3.googleusercontent.com/DMOVkUIv9Su7yHsGmjl7gS0iU9qjvz13BSZZfQTVMCAE7mUHbWS3S0-DbFg1HUBt9pD9yjxT=s900-c-k-c0x00ffffff-no-rj" group-title="CHANNEL | USA TV",CBS Sports Golazo
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/480845.m3u8
+#EXTINF:-1 tvg-id="BEINS1S" tvg-name="USA: BEIN SPORTS ESPANOL" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_newAeNdIQKXPR9m4CFkm-QsEouUiGqm61QcIDVArCpjb0=s900-c-k-c0x00ffffff-no-rj" group-title="CHANNEL | USA TV",USA: BEIN SPORTS ESPANOL
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/169948.m3u8
+#EXTINF:-1 tvg-id="TUDN (Estados Unidos)" tvg-name="TUDN HD (USA)" tvg-logo="http://www.tmsimg.com/assets/s65129_ll_h3_aa.png" group-title="CHANNEL | USA TV",TUDN HD (USA)
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/484891.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="HBO BOXING" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nLV5VcqNgTJL_42lIVgAMDgKzZZ9OWfGVG2OJ69VhIzQ=s900-c-k-c0x00ffffff-no-rj" group-title="CHANNEL | USA TV",HBO BOXING
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/527918.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TELEMUNDO | DEPORTES" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAqZpggPUoGOlRhtq2M21t29oj82yV8dvlaFoL90wIPm9TnDRVkHDuyorg&s=10" group-title="CHANNEL | USA TV",TELEMUNDO | DEPORTES
+#EXTGRP:CHANNEL | USA TV
+http://dnsvod.com:8080/Jpg2210233/Rk8zS5x9kQ/560367.m3u8

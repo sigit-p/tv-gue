@@ -1,0 +1,95 @@
+#EXTM3U  #EXTM3U url-tvg\u003d\u0026quot;https://webepg.netlify.app/...","datePublished":"2025-12-18T01:07:00-08:00","dateModified":"2026-01-17T03:03:07-08:00","image":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w1200","height":348,"width":1200},"author":{"@type":"Person","name":"New"},"publisher":{"@type":"Organization","name":"Blogger","logo":{"@type":"ImageObject","url":"https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60","width":206,"height":60}}}
+#EXTINF:-1 xui-id="1" tvg-id="" tvg-name="TRANS 7" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG__41YjYRYl1Rgg7w_Hjqds7.png" group-title="CHANNEL | INDONESIA VIP",TRANS 7
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
+#EXTINF:-1 xui-id="2" tvg-id="" tvg-name="TRANS TV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_-EALYMZlvZ0UkpKiRj079h.png" group-title="CHANNEL | INDONESIA VIP",TRANS TV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
+#EXTINF:-1 xui-id="3" tvg-id="" tvg-name="INDOSIAR" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_-phjaE0bkXev_5r5JXMb8X.png" group-title="CHANNEL | INDONESIA VIP",INDOSIAR
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/205/index.mpd
+#EXTINF:-1 xui-id="4" tvg-id="" tvg-name="SCTV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_-4KMZzWvWuJmtUXX_Pykft.png" group-title="CHANNEL | INDONESIA VIP",SCTV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://vidio123.mikrofast.web.id/vidio/204/index.mpd
+#EXTINF:-1 xui-id="5" tvg-id="" tvg-name="RCTI" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG__fdkYCzWlCl3ZXPmfrnH6P.png" group-title="CHANNEL | INDONESIA VIP",RCTI
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rctiplus123.mikrofast.my.id/rctiplus/rcti/redirect.m3u8
+#EXTINF:-1 xui-id="6" tvg-id="" tvg-name="MNC TV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_9v9MWDJyTNnNeOTP4Dh-72.png" group-title="CHANNEL | INDONESIA VIP",MNC TV
+#EXTGRP:CHANNEL | INDONESIA VIP
+http://spmid.pw:80/play/4O84I8UczkDgudZ5CjpTRrhJF9VPC4X61h7pgJ37q6g
+#EXTINF:-1 xui-id="7" tvg-id="" tvg-name="GTV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_-_W8ecdRUSHxYbxtdS7gSd.png" group-title="CHANNEL | INDONESIA VIP",GTV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rctiplus123.mikrofast.my.id/rctiplus/gtv/redirect.m3u8
+#EXTINF:-1 xui-id="8" tvg-id="" tvg-name="iNEWS" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_8FUWejrZ49wRlp4xJQJfeI.png" group-title="CHANNEL | INDONESIA VIP",iNEWS
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rctiplus123.mikrofast.my.id/rctiplus/inews/redirect.m3u8
+#EXTINF:-1 xui-id="9" tvg-id="ANTV" tvg-name="ANTV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_8WU9jCdVnmlafq6fxtKhIP.png" group-title="CHANNEL | INDONESIA VIP",ANTV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
+#EXTINF:-1 xui-id="10" tvg-id="" tvg-name="TV ONE" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_92MGjTjupGNOsPUiN2rLYF.png" group-title="CHANNEL | INDONESIA VIP",TV ONE
+#EXTGRP:CHANNEL | INDONESIA VIP
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
+#EXTINF:-1 xui-id="11" tvg-id="" tvg-name="MDTV" tvg-logo="http://spmid.pw:80/images/F87xJOsJq_WakErjeAPJPtWYKPGyZaIZafX1wih_qEim9slaTxRX3y_G4ZmIjZmczXPIavISRhWSZwlVT26TrgkMllD6GZriwEjKgLA4GFc.png" group-title="CHANNEL | INDONESIA VIP",MDTV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
+#EXTINF:-1 xui-id="12" tvg-id="" tvg-name="METRO TV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_9GLMwPPwqUugDAUiwa6-mm.png" group-title="CHANNEL | INDONESIA VIP",METRO TV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
+#EXTINF:-1 xui-id="13" tvg-id="" tvg-name="KOMPAS TV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG_9mo5Y9Ej8B1PbkVn2qUBu4.png" group-title="CHANNEL | INDONESIA VIP",KOMPAS TV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
+#EXTINF:-1 xui-id="14" tvg-id="" tvg-name="RTV" tvg-logo="http://spmid.pw:80/images/JINxDjeXVgNDONUMwYmo3uwjsLDDiQ4pLXl_wRhlG__5KekXvtVqsPZknC4JAgkt.png" group-title="CHANNEL | INDONESIA VIP",RTV
+#EXTGRP:CHANNEL | INDONESIA VIP
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
+#EXTINF:-1 xui-id="15" tvg-id="" tvg-name="TVRI" tvg-logo="http://spmid.pw:80/images/F87xJOsJq_WakErjeAPJPtWYKPGyZaIZafX1wih_qEhRGwelHrxkrzb8gYavbeoZRYIDwh87i28zk4BQfdpm0WM4Z8NgMbTDbrVE7No9nFg.png" group-title="CHANNEL | INDONESIA VIP",TVRI
+#EXTGRP:CHANNEL | INDONESIA VIP
+http://spmid.pw:80/play/4O84I8UczkDgudZ5CjpTRmlrxXri8Yev_22ZM8IQIuQ
+#EXTINF:-1 xui-id="16" tvg-id="" tvg-name="BERITA SATU" tvg-logo="http://spmid.pw:80/images/F87xJOsJq_WakErjeAPJPtWYKPGyZaIZafX1wih_qEh5sQJoNPsr9gTPlYLFOfcTVVQMVxPFi7kucOXu4jG6sturvwL1o2ZGL8WCYZqKXgs.png" group-title="CHANNEL | INDONESIA VIP",BERITA SATU
+#EXTGRP:CHANNEL | INDONESIA VIP
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206|user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
