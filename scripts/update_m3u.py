@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from pathlib import Path
@@ -11,13 +12,15 @@ import sys
 LIVE_URL = "https://maytv.my.id/extream3u26nov2026"
 VOD_URL = "https://s.id/vod27"
 
-# Naik 1 level dari folder scripts/, lalu masuk ke folder playlist/
 BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = BASE_DIR / "playlist"
-OUTPUT_FILE = OUTPUT_DIR / "daftar2_full.m3u"
+OUTPUT_FULL = OUTPUT_DIR / "daftar2_full.m3u"
+OUTPUT_WEB = OUTPUT_DIR / "web_ready.m3u"
 SPLIT_BY_GROUP = True
 
-USER_AGENT = "OTT Navigator/1.6.7.4 (Linux;Android 11) ExoPlayerLib/2.15.1"
+OTT_USER_AGENT = "OTT Navigator/1.6.7.4 (Linux;Android 11) ExoPlayerLib/2.15.1"
+WEB_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+WEB_ORIGIN = "https://sigit-p.github.io"
 
 AUTO_GROUP_RULES = [
     ("INDONESIA", r"\b(rcti|sctv|indosiar|trans\s?tv|trans\s?7|mnctv|gtv|antv|tvone|metro\s?tv|kompas\s?tv|inews|tvri|net\.?\s?tv|mdtv|rtv|mochi|moji|garuda|nusantara|jtv|jak\s?tv|daai|banten|bali\s?tv|sriwijaya|tvmu|mqtv|wesal|rodja|insan\s?tv|surau|nabawi|fatwa|amm\s?tv)\b"),
@@ -58,7 +61,7 @@ def fetch_url(url: str) -> str:
     request = Request(
         url,
         headers={
-            "User-Agent": USER_AGENT,
+            "User-Agent": OTT_USER_AGENT,
             "Accept": "*/*",
         },
     )
@@ -152,7 +155,6 @@ def guess_group_from_name(channel_name: str) -> str:
 
 
 def clean_group_label(raw_group: str) -> str:
-    # Hilangkan simbol panah/bullet dekoratif seperti "▶ VOD FILM SERIES"
     cleaned = re.sub(r"^[▶►•\-\s]+", "", raw_group).strip()
     return cleaned.replace('"', "'")
 
@@ -247,6 +249,43 @@ def format_channel_block(ch: dict) -> list[str]:
     ]
 
 
+def is_web_compatible(ch: dict) -> bool:
+    """Scanner CORS & compatibility untuk browser (HTTPS, tanpa DRM/Referer wajib, lolos CORS)."""
+    url = ch["url"]
+    if not url.lower().startswith("https://"):
+        return False
+
+    # Tolak stream dengan DRM (#KODIPROP) atau Referer khusus yang diblokir browser standar
+    for prop in ch["props"]:
+        upper_p = prop.upper()
+        if upper_p.startswith("#KODIPROP:") or "HTTP-REFERRER" in upper_p or "HTTP-REFERER" in upper_p:
+            return False
+
+    headers = {
+        "User-Agent": WEB_USER_AGENT,
+        "Origin": WEB_ORIGIN,
+    }
+
+    # Coba HEAD terlebih dahulu, fallback ke GET Range 0-1 jika server menolak HEAD (405)
+    for method in ("HEAD", "GET"):
+        req_headers = dict(headers)
+        if method == "GET":
+            req_headers["Range"] = "bytes=0-1"
+        req = Request(url, method=method, headers=req_headers)
+        try:
+            with urlopen(req, timeout=6) as resp:
+                acao = resp.headers.get("Access-Control-Allow-Origin", "")
+                if resp.status in (200, 206) and (acao == "*" or WEB_ORIGIN in acao):
+                    return True
+                return False
+        except Exception as exc:
+            code = getattr(exc, "code", None)
+            if method == "HEAD" and code in (403, 405, 501):
+                continue
+            return False
+    return False
+
+
 def slugify_filename(name: str) -> str:
     clean = re.sub(r"[^a-zA-Z0-9]+", "_", name.lower()).strip("_")
     return clean or "lainnya"
@@ -271,7 +310,7 @@ def main():
         header = live_lines[0]
     append_lines_to_grouped(live_lines, grouped, seen_entries)
 
-    # 2. Ambil & parse VOD (jika sumber VOD sementara down, tetap lanjut pakai hasil Live TV)
+    # 2. Ambil & parse VOD
     try:
         vod_page = fetch_url(VOD_URL)
         vod_lines = parse_raw_lines(vod_page)
@@ -285,6 +324,7 @@ def main():
             f"Hasil ekstraksi hanya memiliki {total_items} item valid; file lama tidak diubah."
         )
 
+    # 3. Simpan daftar2_full.m3u (Lengkap untuk OTT Navigator / VLC / MPV)
     full_output_lines = [header]
     for group_name in sorted(grouped.keys()):
         full_output_lines.append("")
@@ -292,8 +332,9 @@ def main():
         for ch in grouped[group_name]:
             full_output_lines.extend(format_channel_block(ch))
 
-    atomic_write(OUTPUT_FILE, "\n".join(full_output_lines) + "\n")
+    atomic_write(OUTPUT_FULL, "\n".join(full_output_lines) + "\n")
 
+    # 4. Simpan pecahan per kategori ke playlist/grup/
     if SPLIT_BY_GROUP:
         group_dir = OUTPUT_DIR / "grup"
         for group_name, channels in grouped.items():
@@ -303,11 +344,32 @@ def main():
             sub_file = group_dir / f"{slugify_filename(group_name)}.m3u"
             atomic_write(sub_file, "\n".join(sub_lines) + "\n")
 
-    print(f"Berhasil: {OUTPUT_FILE}")
-    print(f"Total item unik (Live + VOD): {total_items} (dalam {len(grouped)} kategori)")
-    print("-" * 45)
-    for group_name in sorted(grouped.keys()):
-        print(f"  - {group_name}: {len(grouped[group_name])} item")
+    # 5. Scan & simpan web_ready.m3u (Khusus Web Player / Browser CORS-safe)
+    web_grouped: dict[str, list[dict]] = defaultdict(list)
+    all_candidates = [
+        ch for group_name in sorted(grouped.keys())
+        for ch in grouped[group_name]
+    ]
+
+    with ThreadPoolExecutor(max_workers=24) as pool:
+        scan_results = list(pool.map(is_web_compatible, all_candidates))
+
+    for ch, ok in zip(all_candidates, scan_results):
+        if ok:
+            web_grouped[ch["group"]].append(ch)
+
+    total_web = sum(len(items) for items in web_grouped.values())
+    if total_web > 0:
+        web_output_lines = [header]
+        for group_name in sorted(web_grouped.keys()):
+            web_output_lines.append("")
+            web_output_lines.append(f"# ==================== {group_name} ====================")
+            for ch in web_grouped[group_name]:
+                web_output_lines.extend(format_channel_block(ch))
+        atomic_write(OUTPUT_WEB, "\n".join(web_output_lines) + "\n")
+
+    print(f"Berhasil Full : {OUTPUT_FULL} ({total_items} item)")
+    print(f"Berhasil Web  : {OUTPUT_WEB} ({total_web} item lolos CORS)")
 
 
 if __name__ == "__main__":
