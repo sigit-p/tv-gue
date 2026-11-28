@@ -1,13 +1,18 @@
 # 📺 TV-Gue — Automated Live TV & VOD M3U Playlist
 
-Repositori ini berisi daftar saluran **Live TV** dan katalog **VOD (Film & Series)** berformat `.m3u` yang diambil, dibersihkan, dan dikelompokkan secara otomatis setiap 6 jam menggunakan **Python** dan **GitHub Actions**, lengkap dengan **Web Player** berbasis GitHub Pages.
+Repositori ini berisi daftar saluran **Live TV** dan katalog **VOD (Film & Series)** berformat `.m3u` yang diambil, dibersihkan, dan dikelompokkan secara otomatis setiap 6 jam menggunakan **Python** dan **GitHub Actions**, lengkap dengan **Modern Web Player** berbasis GitHub Pages.
 
 ---
 
 ## 🌐 Tonton Langsung di Browser (GitHub Pages)
 
-Buka pemutar TV & VOD online langsung melalui browser tanpa instalasi aplikasi tambahan:
+Buka pemutar TV & VOD online langsung melalui browser HP Android maupun Desktop tanpa instalasi aplikasi tambahan:
 👉 **[https://sigit-p.github.io/tv-gue/](https://sigit-p.github.io/tv-gue/)**
+
+### Fitur Utama Web Player:
+* **Dua Pilihan Sumber Playlist:** Dapat beralih langsung antara **`Web Ready (CORS Safe)`** (`web_ready.m3u`) untuk pemutaran mulus di browser atau **`Full Playlist`** (`daftar2_full.m3u`) untuk melihat seluruh daftar.
+* **🔍 Scan Kategori & Auto-Hide CORS:** Tombol pemindai paralel langsung dari browser untuk menyaring saluran mati/terblokir CORS secara *real-time*, ditambah fitur otomatis menyembunyikan saluran yang gagal diputar (dapat dipulihkan kapan saja via tombol **↺ Reset**).
+* **Ramah Android & Mobile:** Pemutar video *sticky* 16:9 di bagian atas layar, navigasi kapsul geser horizontal, mode tampilan **List** & **Grid Poster** (untuk VOD), tombol **Prev/Next**, serta penyimpanan **⭐ Favorit** lokal.
 
 ---
 
@@ -15,14 +20,20 @@ Buka pemutar TV & VOD online langsung melalui browser tanpa instalasi aplikasi t
 
 Salin tautan di bawah ini dan masukkan ke aplikasi pemutar IPTV favorit Anda (**OTT Navigator**, **IPTVnator**, **TiviMate**, **Kodi**, dll.):
 
-### 1. Playlist Lengkap (Live TV + VOD dalam 1 File)
-Cocok untuk **OTT Navigator** maupun **IPTVnator** (sudah dilengkapi atribut `group-title`, `#EXTGRP`, dan `type="movie"` untuk VOD):
+### 1. Playlist Lengkap — Live TV + VOD (Untuk OTT Navigator / VLC / MPV)
+Berisi seluruh saluran lengkap termasuk yang memakai DRM (`#KODIPROP`) maupun header khusus (`#EXTVLCOPT`):
 ```text
 https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/daftar2_full.m3u
 ```
 
-### 2. Playlist Pilihan Per Kategori (Folder `playlist/grup/`)
-Jika ingin memuat kategori tertentu saja agar daftar saluran lebih ringan dan ringkas di **IPTVnator**:
+### 2. Playlist Web Ready — Bebas DRM & Lolos CORS (Untuk Browser / IPTVnator)
+Sudah disaring otomatis oleh scanner Python agar kompatibel dengan pemutar berbasis web/browser:
+```text
+[https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/web_ready.m3u](https://raw.githubusercontent.com/sigit-p/tv-gue/main/playlist/web_ready.m3u)
+```
+
+### 3. Playlist Pilihan Per Kategori (Folder `playlist/grup/`)
+Jika ingin memuat kategori tertentu saja agar daftar saluran lebih ringan dan ringkas:
 
 | Kategori | Link Raw M3U |
 | :--- | :--- |
@@ -51,8 +62,8 @@ Jika ingin memuat kategori tertentu saja agar daftar saluran lebih ringan dan ri
 ## ⚙️ Fitur Otomatisasi
 
 * **Penggabungan Live TV & VOD:** Mengambil siaran langsung dan katalog film/series dari beberapa sumber publik sekaligus, menyatukannya ke dalam `playlist/daftar2_full.m3u`, serta memecahnya per kategori ke folder `playlist/grup/`.
+* **CORS & Compatibility Scanner:** Memindai link stream secara paralel untuk menghasilkan `playlist/web_ready.m3u` yang aman diputar di browser tanpa hambatan CORS maupun DRM.
 * **Pembersihan & Standarisasi Metadata:** Mendekode karakter HTML/JSON, menghapus entri duplikat, mempertahankan direktif `#KODIPROP` (DRM) dan `#EXTVLCOPT` (User-Agent/Referer), serta membersihkan nama grup agar terbaca rapi di semua player.
-* **Web Player Terintegrasi:** Antarmuka pemutar HLS/MP4 ringan (`index.html`) yang langsung membaca `playlist/daftar2_full.m3u` via GitHub Pages.
 * **Auto-Sync 6 Jam Sekali:** Berjalan otomatis via GitHub Actions setiap 6 jam (`0 */6 * * *`) atau dapat dipicu manual melalui tab **Actions $\rightarrow$ Run workflow**.
 
 ---
@@ -65,11 +76,12 @@ tv-gue/
 │   └── workflows/
 │       └── update_playlist.yml   # Konfigurasi jadwal cron GitHub Actions
 ├── playlist/
-│   ├── daftar2_full.m3u          # Playlist gabungan seluruh Live TV & VOD
+│   ├── daftar2_full.m3u          # Playlist gabungan lengkap (Live TV + VOD)
+│   ├── web_ready.m3u             # Playlist hasil filter CORS-safe untuk browser
 │   └── grup/                     # Pecahan file .m3u per kategori Live TV & VOD
 ├── scripts/
-│   └── update_m3u.py             # Skrip Python parser & pengelompok saluran
-├── index.html                    # Antarmuka Web Player (GitHub Pages)
+│   └── update_m3u.py             # Skrip Python parser, scanner & pengelompok saluran
+├── index.html                    # Antarmuka Modern Web Player (GitHub Pages)
 └── README.md                     # Dokumentasi repositori
 ```
 
@@ -80,12 +92,15 @@ tv-gue/
 ### Di OTT Navigator (Android)
 1. Buka **Pengaturan** $\rightarrow$ **Penyedia** $\rightarrow$ **Tambah Penyedia** $\rightarrow$ **Daftar Putar**.
 2. Tempel URL `playlist/daftar2_full.m3u` di atas.
-3. Siaran langsung akan otomatis masuk ke tab **TV Langsung**, sementara katalog VOD masuk ke tab **Film**. Aktifkan pembaruan otomatis playlist agar selalu sinkron dengan GitHub.
+3. Siaran langsung akan otomatis masuk ke tab **TV Langsung**, sementara katalog VOD masuk ke tab **Film**.
 
 ### Di IPTVnator (Desktop / Web)
 1. Klik **Add Playlist** $\rightarrow$ pilih **Add by URL**.
-2. Tempel URL `playlist/daftar2_full.m3u` (untuk melihat seluruh grup Live TV & VOD di panel kiri) atau pilih salah satu URL dari folder `playlist/grup/` di atas.
-3. Gunakan tombol **Refresh** pada daftar playlist kapan saja untuk menarik pembaruan terbaru.
+2. Gunakan URL `playlist/web_ready.m3u` jika memakai pemutar bawaan browser, atau gunakan `playlist/daftar2_full.m3u` jika sudah mengatur **Video Player** di Settings IPTVnator ke **MPV / VLC**.
+
+### Di Chrome Android (Sebagai Web App)
+1. Buka **[https://sigit-p.github.io/tv-gue/](https://sigit-p.github.io/tv-gue/)** di Chrome Android.
+2. Ketuk menu **titik tiga (`⋮`)** $\rightarrow$ pilih **Tambahkan ke layar utama** (*Add to Home Screen*) untuk mengaksesnya layar penuh seperti aplikasi.
 
 ---
 
