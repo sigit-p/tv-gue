@@ -960,6 +960,73 @@
       }
     });
 
+    const scanCategoryBtn = document.getElementById("scanCategoryBtn");
+    let isScanning = false;
+
+    async function testStreamUrl(ch) {
+      // Tolak langsung jika HTTP di halaman HTTPS atau mengandung DRM
+      if ((window.location.protocol === "https:" && ch.url.startsWith("http://")) || ch.hasDrm) {
+        return false;
+      }
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000); // Batas tunggu 5 detik per channel
+
+      try {
+        // Menguji akses CORS langsung dari browser pengguna
+        const res = await fetch(ch.url, {
+          method: "GET",
+          mode: "cors",
+          signal: controller.signal
+        });
+        clearTimeout(timeoutId);
+        return res.ok;
+      } catch (err) {
+        clearTimeout(timeoutId);
+        return false; // Gagal karena CORS diblokir, 404, atau timeout
+      }
+    }
+
+    async function scanActiveList() {
+      if (isScanning) return;
+      const targets = [...filteredChannels];
+      if (targets.length === 0) return;
+
+      isScanning = true;
+      scanCategoryBtn.classList.add("active");
+
+      let checked = 0;
+      let removed = 0;
+      const concurrency = 12; // Scan 12 saluran sekaligus agar cepat tapi tetap ringan di HP
+
+      for (let i = 0; i < targets.length; i += concurrency) {
+        const batch = targets.slice(i, i + concurrency);
+        scanCategoryBtn.textContent = `⏳ ${checked}/${targets.length}`;
+
+        const results = await Promise.all(batch.map(ch => testStreamUrl(ch)));
+
+        batch.forEach((ch, idx) => {
+          checked++;
+          if (!results[idx]) {
+            hiddenUrls.add(ch.url);
+            removed++;
+          }
+        });
+
+        // Perbarui daftar secara real-time setiap batch selesai
+        localStorage.setItem(HIDDEN_STORAGE_KEY, JSON.stringify([...hiddenUrls]));
+        updateResetButton();
+        renderList();
+      }
+
+      isScanning = false;
+      scanCategoryBtn.classList.remove("active");
+      scanCategoryBtn.textContent = "🔍 Scan";
+      showToast(`Scan selesai: ${removed} error CORS dihapus dari tampilan`);
+    }
+
+    scanCategoryBtn.addEventListener("click", scanActiveList);
+    
     loadPlaylist(playlistSourceEl.value);
   </script>
 </body>
