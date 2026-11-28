@@ -1,10 +1,17 @@
 # 📺 TV-Gue — Automated Live TV & VOD M3U Playlist
 
-Repositori ini berisi daftar saluran **Live TV** dan katalog **VOD (Film & Series)** berformat `.m3u` yang diambil, dibersihkan, dan dikelompokkan secara otomatis setiap 6 jam menggunakan **Python** dan **GitHub Actions**.
+Repositori ini berisi daftar saluran **Live TV** dan katalog **VOD (Film & Series)** berformat `.m3u` yang diambil, dibersihkan, dan dikelompokkan secara otomatis setiap 6 jam menggunakan **Python** dan **GitHub Actions**, lengkap dengan **Web Player** berbasis GitHub Pages.
 
 ---
 
-## 🔗 Link Playlist (Siap Pakai)
+## 🌐 Tonton Langsung di Browser (GitHub Pages)
+
+Buka pemutar TV & VOD online langsung melalui browser tanpa instalasi aplikasi tambahan:
+👉 **[https://sigit-p.github.io/tv-gue/](https://sigit-p.github.io/tv-gue/)**
+
+---
+
+## 🔗 Link Playlist M3U (Siap Pakai)
 
 Salin tautan di bawah ini dan masukkan ke aplikasi pemutar IPTV favorit Anda (**OTT Navigator**, **IPTVnator**, **TiviMate**, **Kodi**, dll.):
 
@@ -43,9 +50,9 @@ Jika ingin memuat kategori tertentu saja agar daftar saluran lebih ringan dan ri
 
 ## ⚙️ Fitur Otomatisasi
 
-* **Penggabungan Live TV & VOD:** Mengambil siaran langsung dan katalog film/series dari beberapa sumber sekaligus, menyatukannya ke dalam `daftar2_full.m3u`, serta memecahnya per kategori ke folder `grup/`.
+* **Penggabungan Live TV & VOD:** Mengambil siaran langsung dan katalog film/series dari beberapa sumber publik sekaligus, menyatukannya ke dalam `daftar2_full.m3u`, serta memecahnya per kategori ke folder `grup/`.
 * **Pembersihan & Standarisasi Metadata:** Mendekode karakter HTML/JSON, menghapus entri duplikat, mempertahankan direktif `#KODIPROP` (DRM) dan `#EXTVLCOPT` (User-Agent/Referer), serta membersihkan nama grup agar terbaca rapi di semua player.
-* **Fallback Aman:** Jika salah satu sumber (misalnya sumber VOD) sedang tidak dapat diakses, skrip tetap memperbarui playlist dari sumber lain yang aktif tanpa menggagalkan proses sinkronisasi.
+* **Web Player Terintegrasi:** Antarmuka pemutar HLS/MP4 ringan (`index.html`) yang langsung membaca `daftar2_full.m3u` via GitHub Pages.
 * **Auto-Sync 6 Jam Sekali:** Berjalan otomatis via GitHub Actions setiap 6 jam (`0 */6 * * *`) atau dapat dipicu manual melalui tab **Actions $\rightarrow$ Run workflow**.
 
 ---
@@ -59,6 +66,7 @@ tv-gue/
 │       └── update_playlist.yml   # Konfigurasi jadwal cron GitHub Actions
 ├── grup/                         # Pecahan file .m3u per kategori Live TV & VOD
 ├── daftar2_full.m3u              # Playlist gabungan seluruh Live TV & VOD
+├── index.html                    # Antarmuka Web Player (GitHub Pages)
 ├── update_m3u.py                 # Skrip Python parser & pengelompok saluran
 └── README.md                     # Dokumentasi repositori
 ```
@@ -77,5 +85,10 @@ tv-gue/
 2. Tempel URL `daftar2_full.m3u` (untuk melihat seluruh grup Live TV & VOD di panel kiri) atau pilih salah satu URL dari folder `grup/` di atas.
 3. Gunakan tombol **Refresh** pada daftar playlist kapan saja untuk menarik pembaruan terbaru.
 
+---
 
-2026@sigitpbw
+## 👤 Author & Copyright
+
+* **Created & Maintained by:** **sigitpbw** ([@sigit-p](https://github.com/sigit-p))
+* **Copyright:** © 2026 **sigitpbw**. All rights reserved.
+* **Lisensi & Ketentuan Penggunaan:** Seluruh tautan playlist maupun stream dalam repositori ini dikumpulkan dari **sumber publik (*public sources*)** yang tersedia secara terbuka di internet. Dibagikan gratis khusus untuk keperluan pribadi dan pembelajaran — **tidak untuk diperjualbelikan (non-komersial)**.
