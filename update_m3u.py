@@ -8,14 +8,15 @@ import json
 import re
 import sys
 
-SOURCE_URL = "https://maytv.my.id/extream3u26nov2026"
+LIVE_URL = "https://maytv.my.id/extream3u26nov2026"
+VOD_URL = "https://s.id/vod27"
+
 OUTPUT_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = OUTPUT_DIR / "daftar2_full.m3u"
 SPLIT_BY_GROUP = True
 
 USER_AGENT = "OTT Navigator/1.6.7.4 (Linux;Android 11) ExoPlayerLib/2.15.1"
 
-# Aturan tebak kategori otomatis jika channel dari sumber tidak punya group-title
 AUTO_GROUP_RULES = [
     ("INDONESIA", r"\b(rcti|sctv|indosiar|trans\s?tv|trans\s?7|mnctv|gtv|antv|tvone|metro\s?tv|kompas\s?tv|inews|tvri|net\.?\s?tv|mdtv|rtv|mochi|moji|garuda|nusantara|jtv|jak\s?tv|daai|banten|bali\s?tv|sriwijaya|tvmu|mqtv|wesal|rodja|insan\s?tv|surau|nabawi|fatwa|amm\s?tv)\b"),
     ("SPORTS", r"\b(sport|bein|espn|fox\s?sports|arena|bola|soccer|football|premiere|premier|champions|ucl|liga|motogp|f1|ufc|wwe|nba|golf|tennis|badminton|olympic|k-plus|spo\s?tv|spotv|astro\s?super|tnt\s?sports|sky\s?sports|dazn|mola|vidio\s?sport)\b"),
@@ -49,6 +50,18 @@ class PreParser(HTMLParser):
     def handle_data(self, data):
         if self.depth:
             self.current.append(data)
+
+
+def fetch_url(url: str) -> str:
+    request = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "*/*",
+        },
+    )
+    with urlopen(request, timeout=60) as response:
+        return response.read().decode("utf-8", errors="replace")
 
 
 def extract_from_json_strings(page: str) -> list[str]:
@@ -136,9 +149,14 @@ def guess_group_from_name(channel_name: str) -> str:
     return "LAINNYA"
 
 
+def clean_group_label(raw_group: str) -> str:
+    # Hilangkan simbol panah/bullet dekoratif seperti "▶ VOD FILM SERIES"
+    cleaned = re.sub(r"^[▶►•\-\s]+", "", raw_group).strip()
+    return cleaned.replace('"', "'")
+
+
 def ensure_group_title_in_extinf(extinf_line: str, group_name: str) -> str:
-    """Memastikan atribut group-title selalu ada dan bersih di dalam baris #EXTINF."""
-    safe_group = group_name.replace('"', "'").strip()
+    safe_group = clean_group_label(group_name)
     if re.search(r'group-title="[^"]*"', extinf_line, re.IGNORECASE):
         return re.sub(
             r'group-title="[^"]*"',
@@ -153,18 +171,21 @@ def ensure_group_title_in_extinf(extinf_line: str, group_name: str) -> str:
     return extinf_line
 
 
-def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict]]]:
-    header = lines[0]
-    grouped: dict[str, list[dict]] = defaultdict(list)
-
+def append_lines_to_grouped(
+    lines: list[str],
+    grouped: dict[str, list[dict]],
+    seen_entries: set,
+    default_fallback_group: str = "",
+):
     current_extinf = ""
     current_group = ""
     current_name = ""
     current_props = []
-    seen_entries = set()
 
-    for line in lines[1:]:
+    for line in lines:
         upper_line = line.upper()
+        if upper_line.startswith("#EXTM3U"):
+            continue
 
         if upper_line.startswith("#EXTINF"):
             current_extinf = line
@@ -173,14 +194,14 @@ def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict
 
             group_match = re.search(r'group-title="([^"]*)"', line, re.IGNORECASE)
             if group_match and group_match.group(1).strip():
-                current_group = group_match.group(1).strip()
+                current_group = clean_group_label(group_match.group(1))
             else:
                 current_group = ""
 
         elif upper_line.startswith(("#KODIPROP:", "#EXTVLCOPT:", "#EXTGRP:")):
             if current_extinf:
                 if upper_line.startswith("#EXTGRP:"):
-                    grp_val = line.split(":", 1)[1].strip()
+                    grp_val = clean_group_label(line.split(":", 1)[1])
                     if grp_val and not current_group:
                         current_group = grp_val
                 else:
@@ -188,9 +209,8 @@ def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict
 
         elif re.match(r"https?://", line, re.IGNORECASE):
             if current_extinf:
-                # Jika group-title & #EXTGRP kosong, tebak kategori dari nama channel
                 if not current_group or current_group.upper() in ("UNCATEGORIZED", "UNDEFINED", "NONE", "GENERAL"):
-                    current_group = guess_group_from_name(current_name)
+                    current_group = default_fallback_group or guess_group_from_name(current_name)
 
                 final_extinf = ensure_group_title_in_extinf(current_extinf, current_group)
 
@@ -207,11 +227,8 @@ def parse_and_group_channels(lines: list[str]) -> tuple[str, dict[str, list[dict
                 current_extinf = ""
                 current_props = []
 
-    return header, grouped
-
 
 def format_channel_block(ch: dict) -> list[str]:
-    """Menyertakan #EXTGRP dan group-title agar IPTVnator & OTT Navigator mengenali grup."""
     kodi_props = [p for p in ch["props"] if p.upper().startswith("#KODIPROP:")]
     vlc_opts = [p for p in ch["props"] if p.upper().startswith("#EXTVLCOPT:")]
     other_props = [
@@ -241,33 +258,29 @@ def atomic_write(target: Path, content: str):
 
 
 def main():
-    request = Request(
-        SOURCE_URL,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "*/*",
-        },
-    )
-    with urlopen(request, timeout=60) as response:
-        page = response.read().decode("utf-8", errors="replace")
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    seen_entries = set()
+    header = "#EXTM3U"
 
-    raw_lines = parse_raw_lines(page)
+    # 1. Ambil & parse Live TV
+    live_page = fetch_url(LIVE_URL)
+    live_lines = parse_raw_lines(live_page)
+    if live_lines and live_lines[0].startswith("#EXTM3U"):
+        header = live_lines[0]
+    append_lines_to_grouped(live_lines, grouped, seen_entries)
 
-    # Tepat sebelum baris: header, grouped = parse_and_group_channels(raw_lines)
-custom_file = OUTPUT_DIR / "vod.m3u"
-if custom_file.exists():
-    custom_lines = [
-        l.strip() for l in custom_file.read_text(encoding="utf-8").splitlines()
-        if l.strip() and not l.strip().startswith("#EXTM3U")
-    ]
-    raw_lines.extend(custom_lines)
-    
-    header, grouped = parse_and_group_channels(raw_lines)
+    # 2. Ambil & parse VOD (jika sumber VOD sementara down, tetap lanjut pakai hasil Live TV)
+    try:
+        vod_page = fetch_url(VOD_URL)
+        vod_lines = parse_raw_lines(vod_page)
+        append_lines_to_grouped(vod_lines, grouped, seen_entries, default_fallback_group="VOD LAINNYA")
+    except Exception as vod_err:
+        print(f"PERINGATAN VOD dilewati: {vod_err}", file=sys.stderr)
 
-    total_channels = sum(len(items) for items in grouped.values())
-    if total_channels < 10:
+    total_items = sum(len(items) for items in grouped.values())
+    if total_items < 10:
         raise RuntimeError(
-            f"Hasil ekstraksi hanya memiliki {total_channels} channel valid; file lama tidak diubah."
+            f"Hasil ekstraksi hanya memiliki {total_items} item valid; file lama tidak diubah."
         )
 
     full_output_lines = [header]
@@ -289,10 +302,10 @@ if custom_file.exists():
             atomic_write(sub_file, "\n".join(sub_lines) + "\n")
 
     print(f"Berhasil: {OUTPUT_FILE}")
-    print(f"Total channel unik: {total_channels} (dalam {len(grouped)} kategori)")
+    print(f"Total item unik (Live + VOD): {total_items} (dalam {len(grouped)} kategori)")
     print("-" * 45)
     for group_name in sorted(grouped.keys()):
-        print(f"  - {group_name}: {len(grouped[group_name])} channel")
+        print(f"  - {group_name}: {len(grouped[group_name])} item")
 
 
 if __name__ == "__main__":
