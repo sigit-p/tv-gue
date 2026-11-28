@@ -1,3 +1,4 @@
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=sigit-p.tv-gue)
 # 📺 TV-Gue — Automated Live TV & VOD M3U Playlist
 
 Repositori ini berisi daftar saluran **Live TV** dan katalog **VOD (Film & Series)** berformat `.m3u` yang diambil, dibersihkan, dan dikelompokkan secara otomatis setiap 6 jam menggunakan **Python** dan **GitHub Actions**, lengkap dengan **Modern Web Player** berbasis GitHub Pages.
