@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TV-Gue Online Player</title>
+  <title>TV-Gue Online Player — sigitpbw</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -23,7 +23,20 @@
       justify-content: space-between;
       border-bottom: 1px solid #334155;
     }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
     header h1 { font-size: 1.1rem; color: #38bdf8; }
+    .author-tag {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      background: #0f172a;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid #334155;
+    }
     .container {
       display: flex;
       flex: 1;
@@ -97,11 +110,35 @@
       background: #000;
       position: relative;
     }
+    .video-wrapper {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
+      overflow: hidden;
+    }
     video {
       width: 100%;
       height: 100%;
-      max-height: calc(100vh - 95px);
       background: #000;
+    }
+    /* Watermark transparan di pojok kanan atas layar video */
+    .video-watermark {
+      position: absolute;
+      top: 14px;
+      right: 18px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: rgba(255, 255, 255, 0.35);
+      background: rgba(15, 23, 42, 0.35);
+      padding: 3px 10px;
+      border-radius: 4px;
+      pointer-events: none;
+      user-select: none;
+      z-index: 10;
     }
     .now-playing {
       background: #1e293b;
@@ -111,6 +148,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 10px;
     }
     .status-badge {
       font-size: 0.78rem;
@@ -118,17 +156,37 @@
       border-radius: 4px;
       background: #334155;
       color: #cbd5e1;
+      white-space: nowrap;
     }
+    footer {
+      background: #0b1120;
+      color: #94a3b8;
+      font-size: 0.75rem;
+      padding: 7px 20px;
+      border-top: 1px solid #1e293b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    footer strong { color: #e2e8f0; }
+    footer a { color: #38bdf8; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
     @media (max-width: 768px) {
       .container { flex-direction: column-reverse; }
-      .sidebar { width: 100%; height: 55vh; }
-      video { max-height: 35vh; }
+      .sidebar { width: 100%; height: 50vh; }
+      .video-wrapper { height: 32vh; flex: none; }
+      footer { justify-content: center; text-align: center; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>📺 TV-Gue Web Player</h1>
+    <div class="brand">
+      <h1>📺 TV-Gue Web Player</h1>
+      <span class="author-tag">by sigitpbw</span>
+    </div>
     <span id="counter" class="status-badge">Memuat playlist...</span>
   </header>
 
@@ -144,7 +202,10 @@
     </aside>
 
     <main class="player-area">
-      <video id="video" controls autoplay playsinline></video>
+      <div class="video-wrapper">
+        <div class="video-watermark">TV-Gue • sigitpbw</div>
+        <video id="video" controls autoplay playsinline></video>
+      </div>
       <div class="now-playing">
         <span id="currentTitle">Pilih channel atau film di daftar samping</span>
         <span id="playerStatus" class="status-badge">Siap</span>
@@ -152,8 +213,12 @@
     </main>
   </div>
 
+  <footer>
+    <span>© 2026 <strong>sigitpbw</strong> (<a href="https://github.com/sigit-p/tv-gue" target="_blank" rel="noopener">github.com/sigit-p/tv-gue</a>). All rights reserved.</span>
+    <span>Sumber link berasal dari publik — Gratis untuk penggunaan pribadi &amp; tidak diperjualbelikan.</span>
+  </footer>
+
   <script>
-    // Membaca langsung file daftar2_full.m3u di folder yang sama pada GitHub Pages
     const M3U_URL = "./daftar2_full.m3u";
 
     let allChannels = [];
@@ -252,7 +317,6 @@
       counterEl.textContent = `${filtered.length} / ${allChannels.length} item`;
       channelListEl.innerHTML = "";
 
-      // Batasi render awal maksimal 300 item agar browser tetap ringan
       filtered.slice(0, 300).forEach(ch => {
         const div = document.createElement("div");
         div.className = "channel-item";
